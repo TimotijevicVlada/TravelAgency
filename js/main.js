@@ -37,5 +37,21 @@ async function navBar() {
         list.style.left = "-100%";
     }
 }
+navBar();
 
-navBar()
+//Fetch Header 
+async function header() {
+    const response = await fetch("json/header.json");
+    const data = await response.json();
+    let container = document.querySelector("header");
+    let html = "";
+    html = `
+        <div class="header_text">
+            <h1>Get gone on Your Travel</h1>
+            <p>${data[0].text}</p>
+            <button>Reserve your vacation</button>
+        </div>
+    `;
+    container.innerHTML = html;
+}
+header();

@@ -16,18 +16,23 @@ $largeFont: 25px;
 $mediumFont: 20px;
 $smallFont: 16px; //default size
 
-$hoverColor: lightseagreen;
+$hoverColor: rgb(255, 255, 255);
+$hoverColorBlue: lightseagreen;
 
 /*Navbar*/
 nav {
-  background-color: whitesmoke;
+  width: 100%;
+  background-color: rgba(245, 245, 245, 0.4);
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-around;
+  z-index: 1;
   .nav_list {
     display: flex;
     .navbar_exit {
-        display: none;
-      }
+      display: none;
+    }
     li {
       list-style-type: none;
       margin-left: 20px;
@@ -38,10 +43,8 @@ nav {
         cursor: pointer;
         color: $hoverColor;
       }
-      
     }
   }
-
   .navbar_heart {
     display: flex;
     align-items: center;
@@ -73,9 +76,48 @@ nav {
   }
 }
 
+/*Header*/
+header {
+  background: url("../images/maldives_header.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 0;
+  .header_text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 500px;
+    h1 {
+      font-size: 40px;
+      font-weight: 200;
+      color: rgba(0, 0, 0, 0.5);
+    }
+    p {
+      font-size: $mediumFont;
+      color: rgba(0, 0, 0, 0.5);
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      color: rgba(0, 0, 0, 0.5);
+      font-size: $mediumFont;
+      background-color: rgba(255, 255, 255, 0.3);
+      border: 1px solid rgb(179, 179, 179);
+      &:hover {
+        cursor: pointer;
+        color: black;
+        background: rgba(255, 255, 255, 0.7);
+      }
+    }
+  }
+}
 
-
+//Media_queries
 @media screen and (max-width: 768px) {
+  /*Navbar*/
   nav {
     justify-content: flex-end;
     .nav_list {
@@ -90,13 +132,16 @@ nav {
       z-index: 2;
       transition: all 0.3s ease;
       .navbar_exit {
-          display: block;
-          position: absolute;
-          right: 30px;
-          top: 0px;
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 0px;
       }
       li {
         margin-top: 10px;
+        &:hover {
+          color: $hoverColorBlue;
+        }
       }
     }
     .navbar_heart {
@@ -107,6 +152,19 @@ nav {
       display: flex;
       align-items: center;
       padding: 5px 0px;
+    }
+  }
+
+  /*Header*/
+  header {
+    .header_text {
+      width: 250px;
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        font-size: $smallFont;
+      }
     }
   }
 }
