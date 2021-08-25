@@ -14,5 +14,9 @@
     {
         "name": "Contact",
         "class": "contact"
+    },
+    {
+        "name": "More <i class='fas fa-angle-down'></i>",
+        "class": "more"
     }
 ]
