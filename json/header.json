@@ -3,7 +3,7 @@
         "title": "Maldives",
         "desc": "The Maldives are known as “the tropical paradise” for reasons such as its beauty. This tropical country has separated islands and islands are surrounded by its own lagoon. Each island has pure white sandy beaches. The sea covers 99% of the Maldives and it is where you can see beautiful fishes and corals.",
         "image": {
-            "img": "images/maldives_header.jpg",
+            "img": "images/header/maldives_header.jpg",
             "alt": "Maldives_img"
         }
     },
@@ -11,7 +11,7 @@
         "title": "Zanzibar",
         "desc": "Zanzibar is the home of idyllic beaches, balmy weather & warm tropical waters. This archipelago is renowned for clear warm waters, coral reefs and rich marine diversity making it a perfect under-water destination for snorkelling and diving.",
         "image": {
-            "img": "images/zanzibar_header.jpg",
+            "img": "images/header/zanzibar_header.jpg",
             "alt": "Zanzibar_img"
         }
     },
@@ -19,7 +19,7 @@
         "title": "Bali",
         "desc": "Also known as the Land of the Gods, Bali appeals through its sheer natural beauty of looming volcanoes and lush terraced rice fields that exude peace and serenity. Bali enchants with its dramatic dances and colourful ceremonies, its arts and crafts, to its luxurious beach resorts and exciting nightlife.",
         "image": {
-            "img": "images/bali_header.jpg",
+            "img": "images/header/bali_header.jpg",
             "alt": "Bali_img"
         }
     },
@@ -27,7 +27,7 @@
         "title": "Seyshelles",
         "desc": "Seychelles is a paradise on Earth. The beautiful country is blessed with deep blue waters and white sandy beaches with exotic sea life, becoming a famous honeymoon destination. The 115-island country is within the Indian Ocean off East Africa and actually has the least population among independent African countries.",
         "image": {
-            "img": "images/seyshelles_header.jpg",
+            "img": "images/header/seyshelles_header.jpg",
             "alt": "Seyshelles_img"
         }
     }

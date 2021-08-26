@@ -1,0 +1,83 @@
+[
+    {
+        "image": {
+            "img": "images/categories/greece_categories.jpg",
+            "alt": "greece_img"
+        },
+        "name": "Greece",
+        "title": "Greece apartmants summer 2021",
+        "text": "See last minute offers action for apartmants rooms in the Greece"
+    },
+    {
+        "image": {
+            "img": "images/categories/croatia_categories.jpg",
+            "alt": "croatia_img"
+        },
+        "name": "Croatia",
+        "title": "Croatia apartmants summer 2021",
+        "text": "See last minute offers action for apartmants rooms in the Croatia"
+    },
+    {
+        "image": {
+            "img": "images/categories/montenegro_categories.jpg",
+            "alt": "montenegro_img"
+        },
+        "name": "Montenegro",
+        "title": "Montenegro apartmants summer 2021",
+        "text": "See last minute offers action for apartmants rooms in the Montenegro"
+    },
+    {
+        "image": {
+            "img": "images/categories/turkey_categories.jpg",
+            "alt": "turkey_img"
+        },
+        "name": "Turkey",
+        "title": "Turkey apartmants summer 2021",
+        "text": "See last minute offers action for apartmants rooms in the Turkey"
+    },
+    {
+        "image": {
+            "img": "images/categories/bali_categories.jpg",
+            "alt": "bali_img"
+        },
+        "name": "Bali",
+        "title": "Bali apartmants summer 2021",
+        "text": "See last minute offers action for apartmants rooms in the Bali"
+    },
+    {
+        "image": {
+            "img": "images/categories/zanzibar_categories.jpg",
+            "alt": "zanzibar_img"
+        },
+        "name": "Zanzibar",
+        "title": "Zanzibar apartmants summer 2021",
+        "text": "See last minute offers action for apartmants rooms in the Zanzibar"
+    },
+    {
+        "image": {
+            "img": "images/categories/cuba_categories.jfif",
+            "alt": "cuba_img"
+        },
+        "name": "Cuba",
+        "title": "Cuba apartmants summer 2021",
+        "text": "See last minute offers action for apartmants rooms in the Cuba"
+    },
+    {
+        "image": {
+            "img": "images/categories/seyshelles_categories.jfif",
+            "alt": "seysheles_img"
+        },
+        "name": "Seyshelles",
+        "title": "Seyshelles apartmants summer 2021",
+        "text": "See last minute offers action for apartmants rooms in the Seyshelles"
+    },
+    {
+        "image": {
+            "img": "images/categories/maldives_categories.jpg",
+            "alt": "maldives_img"
+        },
+        "name": "Maldives",
+        "title": "Maldives apartmants summer 2021",
+        "text": "See last minute offers action for apartmants rooms in the Maldives"
+    }
+]

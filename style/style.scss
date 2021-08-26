@@ -45,7 +45,7 @@ nav {
       }
     }
   }
-  .navbar_heart {
+  .navbar_icons {
     display: flex;
     align-items: center;
     i {
@@ -62,6 +62,9 @@ nav {
         top: 25%;
         font-size: $smallFont;
       }
+    }
+    .fa-sliders-h {
+      display: none;
     }
   }
   .navbar_bars {
@@ -126,6 +129,68 @@ header {
   }
 }
 
+/*Categories card*/
+main {
+  .categories_wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .categories_card {
+      height: 320px;
+      width: 400px;
+      margin: 10px;
+      .image {
+        height: 65%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        .name {
+          position: absolute;
+          z-index: 3;
+          color: white;
+          font-size: $largeFont;
+          font-weight: 600;
+          left: 30px;
+          top: 20px;
+        }
+        img {
+          width: 100%;
+          transition: 0.3s ease;
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+      .info {
+        height: 20%;
+        h3 {
+          margin: 10px 0px;
+          color: $hoverColorBlue;
+        }
+      }
+      .btn {
+        height: 15%;
+        display: flex;
+        align-items: center;
+        button {
+          border: none;
+          background-color: $hoverColorBlue;
+          padding: 8px 12px;
+          font-size: $smallFont;
+          color: white;
+          &:hover {
+            background-color: black;
+          }
+          i {
+            margin: 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
 //Media_queries
 @media screen and (max-width: 768px) {
   /*Navbar*/
@@ -155,9 +220,12 @@ header {
         }
       }
     }
-    .navbar_heart {
+    .navbar_icons {
       margin-right: 10px;
       padding: 5px 0px;
+      .fa-sliders-h {
+        display: block;
+      }
     }
     .navbar_bars {
       display: flex;

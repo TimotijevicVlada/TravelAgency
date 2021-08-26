@@ -17,9 +17,10 @@ async function navBar() {
     html += `</ul>`;
     html += `
         
-        <div class="navbar_heart">
+        <div class="navbar_icons">
             <i class="far fa-envelope" title="Message us"></i>
             <i class="far fa-heart" title="Favourite"><span>0</span></i>
+            <i class="fas fa-sliders-h" title="Filters"></i>
         </div>
         <div class="navbar_bars">
             <i class="fas fa-bars"></i>
@@ -87,3 +88,34 @@ async function header() {
   });
 }
 header();
+
+//Fetch categories 
+async function categories() {
+    const response = await fetch("json/categories.json");
+    const data = await response.json();
+    
+    let container = document.querySelector("main");
+    let html = "";
+    html = `<div class="categories_wrapper">`;
+    for(let i in data) {
+        html += `
+            <div class="categories_card">
+                <div class="image">
+                    <span class="name">${data[i].name}</span>
+                    <img src="${data[i].image.img}" alt="${data[i].image.alt}">
+                </div>
+                <div class="info">
+                    <h3>${data[i].title}</h3>
+                    <p>${data[i].text}</p>
+                </div>
+                <div class="btn">
+                    <button>See offer <i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+    `;
+    }
+    html += `</div>`;
+    container.innerHTML = html;
+    
+}
+categories()

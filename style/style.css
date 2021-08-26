@@ -50,7 +50,7 @@ nav .nav_list li:hover {
   color: white;
 }
 
-nav .navbar_heart {
+nav .navbar_icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,22 +59,26 @@ nav .navbar_heart {
           align-items: center;
 }
 
-nav .navbar_heart i {
+nav .navbar_icons i {
   font-size: 35px;
   position: relative;
   margin-right: 15px;
 }
 
-nav .navbar_heart i:hover {
+nav .navbar_icons i:hover {
   cursor: pointer;
   color: white;
 }
 
-nav .navbar_heart i span {
+nav .navbar_icons i span {
   position: absolute;
   left: 37%;
   top: 25%;
   font-size: 16px;
+}
+
+nav .navbar_icons .fa-sliders-h {
+  display: none;
 }
 
 nav .navbar_bars {
@@ -143,6 +147,87 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+/*Categories card*/
+main .categories_wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .categories_wrapper .categories_card {
+  height: 320px;
+  width: 400px;
+  margin: 10px;
+}
+
+main .categories_wrapper .categories_card .image {
+  height: 65%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+main .categories_wrapper .categories_card .image .name {
+  position: absolute;
+  z-index: 3;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  left: 30px;
+  top: 20px;
+}
+
+main .categories_wrapper .categories_card .image img {
+  width: 100%;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+main .categories_wrapper .categories_card .image img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+main .categories_wrapper .categories_card .info {
+  height: 20%;
+}
+
+main .categories_wrapper .categories_card .info h3 {
+  margin: 10px 0px;
+  color: lightseagreen;
+}
+
+main .categories_wrapper .categories_card .btn {
+  height: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .categories_wrapper .categories_card .btn button {
+  border: none;
+  background-color: lightseagreen;
+  padding: 8px 12px;
+  font-size: 16px;
+  color: white;
+}
+
+main .categories_wrapper .categories_card .btn button:hover {
+  background-color: black;
+}
+
+main .categories_wrapper .categories_card .btn button i {
+  margin: 0 10px;
+}
+
 @media screen and (max-width: 768px) {
   /*Navbar*/
   nav {
@@ -182,9 +267,12 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   nav .nav_list li:hover {
     color: lightseagreen;
   }
-  nav .navbar_heart {
+  nav .navbar_icons {
     margin-right: 10px;
     padding: 5px 0px;
+  }
+  nav .navbar_icons .fa-sliders-h {
+    display: block;
   }
   nav .navbar_bars {
     display: -webkit-box;
