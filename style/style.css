@@ -147,6 +147,41 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+/*Search filter*/
+.search_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.search_wrapper .input_wrapper {
+  width: 50%;
+  padding: 10px;
+  position: relative;
+}
+
+.search_wrapper .input_wrapper input {
+  width: 100%;
+  padding: 15px;
+  font-size: 25px;
+  border: 2px solid lightgray;
+}
+
+.search_wrapper .input_wrapper input:focus {
+  outline: none;
+}
+
+.search_wrapper .input_wrapper .fa-search {
+  position: absolute;
+  right: 30px;
+  top: 27px;
+  font-size: 25px;
+  color: gray;
+}
+
 /*Categories card*/
 main .categories_wrapper {
   width: 100%;

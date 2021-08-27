@@ -91,12 +91,15 @@ header();
 
 //Fetch categories 
 async function categories() {
-    const response = await fetch("json/categories.json");
-    const data = await response.json();
-    
+    try {
+    let response = await fetch("json/categories.json");
+    let data = await response.json();
+     
     let container = document.querySelector("main");
     let html = "";
-    html = `<div class="categories_wrapper">`;
+    html = `
+            <div class="categories_wrapper">
+    `;
     for(let i in data) {
         html += `
             <div class="categories_card">
@@ -109,13 +112,45 @@ async function categories() {
                     <p>${data[i].text}</p>
                 </div>
                 <div class="btn">
-                    <button>See offer <i class="fas fa-chevron-right"></i></button>
+                    <button class="view_offer">See offer <i class="fas fa-chevron-right"></i></button>
                 </div>
             </div>
     `;
     }
     html += `</div>`;
     container.innerHTML = html;
-    
+
+
+    let offerBtn = document.getElementsByClassName("view_offer");
+    for(let i of offerBtn) {
+        i.addEventListener("click", viewOffer);
+    }
+
+    } catch (error) {
+        console.log(error);
+    };
 }
 categories()
+
+//Function that return JSONS
+async function fetchJson(json) {
+    try {
+        const res = await fetch(json);
+        const data = await res.json();
+        return data; 
+
+    } catch (err) {
+        console.log(err);
+    }
+    
+}
+
+const viewOffer = (btn) => {
+    let button = btn.target;
+    let parent = button.parentElement.parentElement;
+    let name = parent.getElementsByClassName("name")[0].innerHTML;
+    let json = fetchJson("json/categories.json");
+    console.log(json)
+    
+}
+

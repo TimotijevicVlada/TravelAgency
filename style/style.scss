@@ -129,6 +129,32 @@ header {
   }
 }
 
+/*Search filter*/
+.search_wrapper {
+  display: flex;
+  justify-content: center;
+  .input_wrapper {
+    width: 50%;
+    padding: 10px;
+    position: relative;
+    input {
+      width: 100%;
+      padding: 15px;
+      font-size: $largeFont;
+      border: 2px solid lightgray;
+      &:focus {
+        outline: none;      }
+    }
+    .fa-search {
+      position: absolute;
+      right: 30px;
+      top: 27px;
+      font-size: $largeFont;
+      color: gray;
+    }
+  }
+}
+
 /*Categories card*/
 main {
   .categories_wrapper {
