@@ -263,6 +263,61 @@ main .categories_wrapper .categories_card .btn button i {
   margin: 0 10px;
 }
 
+/*Hotels*/
+.hotel_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.hotel_wrapper .hotel {
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.hotel_wrapper .hotel .header {
+  height: 20%;
+  border: 1px solid black;
+}
+
+.hotel_wrapper .hotel .info {
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hotel_wrapper .hotel .info .image {
+  width: 50%;
+}
+
+.hotel_wrapper .hotel .info .information {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hotel_wrapper .hotel .info .information .info_upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 @media screen and (max-width: 768px) {
   /*Navbar*/
   nav {

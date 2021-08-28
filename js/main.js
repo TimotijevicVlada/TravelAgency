@@ -68,8 +68,9 @@ async function header() {
                         <div class="swiper-pagination"></div>
               </div>
     `;
-    container.innerHTML = html;
-
+    if(container != null) {
+      container.innerHTML = html;
+    
     //Constructor from swiperjs.com for image slider
     const swiper = new Swiper(".mySwiper", {
     centeredSlides: true,
@@ -86,6 +87,7 @@ async function header() {
       prevEl: ".swiper-button-prev",
     },
   });
+  }
 }
 header();
 
@@ -118,9 +120,13 @@ async function categories() {
     `;
     }
     html += `</div>`;
-    container.innerHTML = html;
 
+    if(container != null) {
+      container.innerHTML = html;  
+    }
+    
 
+    //Listeners for view offer buttons
     let offerBtn = document.getElementsByClassName("view_offer");
     for(let i of offerBtn) {
         i.addEventListener("click", viewOffer);
@@ -131,26 +137,59 @@ async function categories() {
     };
 }
 categories()
-
+/*
 //Function that return JSONS
 async function fetchJson(json) {
     try {
         const res = await fetch(json);
         const data = await res.json();
-        return data; 
+        let podaci = data;
+        return podaci; 
 
     } catch (err) {
         console.log(err);
     }
-    
-}
 
-const viewOffer = (btn) => {
+}*/
+
+//Function fatching categories destination
+async function viewOffer(btn) {
     let button = btn.target;
     let parent = button.parentElement.parentElement;
     let name = parent.getElementsByClassName("name")[0].innerHTML;
-    let json = fetchJson("json/categories.json");
-    console.log(json)
+    let nameLower = name.toLowerCase();
     
+    let res = await fetch("json/" + nameLower + "_hotels.json");
+    let data = await res.json();
+    console.log(data)
+    
+    let container = document.querySelector(".hotel_wrapper");
+    let html = "";
+
+    for(let i in data) {
+        html += `
+            <div class="hotel">
+                <div class="header">
+                    <h2>Ime hotela</h2>
+                </div>
+                <div class="info">
+                    <div class="image">
+                    <img src="slika" alt="hotel"/>
+                    </div>
+                    <div class="information">
+                        <div class="info_upper">
+                        <span class="price">Cena hotela</span>
+                        <span class="transportation">Prevoz</span>
+                        <span class="num_nights">Broj nocenja</span>
+                    </div>
+                    <button>Details</button>
+                    </div>
+                </div>
+            </div>    
+        `;
+    }
+    
+    container.innerHTML = html;
+
 }
 
