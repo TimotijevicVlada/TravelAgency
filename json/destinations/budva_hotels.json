@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Apartments Vidikovac", 
+        "images": {
+            "image1": "images/destinations/Budva/Apartments Vidikovac/image_1.jpg",
+            "image2": "images/destinations/Budva/Apartments Vidikovac/image_2.jpg",
+            "image3": "images/destinations/Budva/Apartments Vidikovac/image_3.jpg",
+            "image4": "images/destinations/Budva/Apartments Vidikovac/image_4.jpg",
+            "image5": "images/destinations/Budva/Apartments Vidikovac/image_5.jpg",
+            "image6": "images/destinations/Budva/Apartments Vidikovac/image_6.jpg",
+            "image7": "images/destinations/Budva/Apartments Vidikovac/image_7.jpg",
+            "image8": "images/destinations/Budva/Apartments Vidikovac/image_8.jpg",
+            "image9": "images/destinations/Budva/Apartments Vidikovac/image_9.jpg",
+            "image10": "images/destinations/Budva/Apartments Vidikovac/image_10.jpg"
+        }
+    },
+    {
+        "name": "Hotel B-ELITE", 
+        "images": {
+            "image1": "images/destinations/Budva/Hotel B-ELITE/image_1.jpg",
+            "image2": "images/destinations/Budva/Hotel B-ELITE/image_2.jpg",
+            "image3": "images/destinations/Budva/Hotel B-ELITE/image_3.jpg",
+            "image4": "images/destinations/Budva/Hotel B-ELITE/image_4.jpg",
+            "image5": "images/destinations/Budva/Hotel B-ELITE/image_5.jpg",
+            "image6": "images/destinations/Budva/Hotel B-ELITE/image_6.jpg",
+            "image7": "images/destinations/Budva/Hotel B-ELITE/image_7.jpg",
+            "image8": "images/destinations/Budva/Hotel B-ELITE/image_8.jpg",
+            "image9": "images/destinations/Budva/Hotel B-ELITE/image_9.jpg",
+            "image10": "images/destinations/Budva/Hotel B-ELITE/image_10.jpg"
+        }
+    },
+    {
+        "name": "Hotel Vela", 
+        "images": {
+            "image1": "images/destinations/Budva/Hotel Vela/image_1.jpg",
+            "image2": "images/destinations/Budva/Hotel Vela/image_2.jpg",
+            "image3": "images/destinations/Budva/Hotel Vela/image_3.jpg",
+            "image4": "images/destinations/Budva/Hotel Vela/image_4.jpg",
+            "image5": "images/destinations/Budva/Hotel Vela/image_5.jpg",
+            "image6": "images/destinations/Budva/Hotel Vela/image_6.jpg",
+            "image7": "images/destinations/Budva/Hotel Vela/image_7.jpg",
+            "image8": "images/destinations/Budva/Hotel Vela/image_8.jpg",
+            "image9": "images/destinations/Budva/Hotel Vela/image_9.jpg",
+            "image10": "images/destinations/Budva/Hotel Vela/image_10.jpg"
+        }
+    },
+    {
+        "name": "Hotel Zeta", 
+        "images": {
+            "image1": "images/destinations/Budva/Hotel Zeta/image_1.jpg",
+            "image2": "images/destinations/Budva/Hotel Zeta/image_2.jpg",
+            "image3": "images/destinations/Budva/Hotel Zeta/image_3.jpg",
+            "image4": "images/destinations/Budva/Hotel Zeta/image_4.jpg",
+            "image5": "images/destinations/Budva/Hotel Zeta/image_5.jpg",
+            "image6": "images/destinations/Budva/Hotel Zeta/image_6.jpg",
+            "image7": "images/destinations/Budva/Hotel Zeta/image_7.jpg",
+            "image8": "images/destinations/Budva/Hotel Zeta/image_8.jpg",
+            "image9": "images/destinations/Budva/Hotel Zeta/image_9.jpg",
+            "image10": "images/destinations/Budva/Hotel Zeta/image_10.jpg"
+        }
+    },
+    {
+        "name": "Jolly Apartments", 
+        "images": {
+            "image1": "images/destinations/Budva/Jolly Apartments/image_1.jpg",
+            "image2": "images/destinations/Budva/Jolly Apartments/image_2.jpg",
+            "image3": "images/destinations/Budva/Jolly Apartments/image_3.jpg",
+            "image4": "images/destinations/Budva/Jolly Apartments/image_4.jpg",
+            "image5": "images/destinations/Budva/Jolly Apartments/image_5.jpg",
+            "image6": "images/destinations/Budva/Jolly Apartments/image_6.jpg",
+            "image7": "images/destinations/Budva/Jolly Apartments/image_7.jpg",
+            "image8": "images/destinations/Budva/Jolly Apartments/image_8.jpg",
+            "image9": "images/destinations/Budva/Jolly Apartments/image_9.jpg",
+            "image10": "images/destinations/Budva/Jolly Apartments/image_10.jpg"
+        }
+    },
+    {
+        "name": "Milara Apartments", 
+        "images": {
+            "image1": "images/destinations/Budva/Milara Apartments/image_1.jpg",
+            "image2": "images/destinations/Budva/Milara Apartments/image_2.jpg",
+            "image3": "images/destinations/Budva/Milara Apartments/image_3.jpg",
+            "image4": "images/destinations/Budva/Milara Apartments/image_4.jpg",
+            "image5": "images/destinations/Budva/Milara Apartments/image_5.jpg",
+            "image6": "images/destinations/Budva/Milara Apartments/image_6.jpg",
+            "image7": "images/destinations/Budva/Milara Apartments/image_7.jpg",
+            "image8": "images/destinations/Budva/Milara Apartments/image_8.jpg",
+            "image9": "images/destinations/Budva/Milara Apartments/image_9.jpg",
+            "image10": "images/destinations/Budva/Milara Apartments/image_10.jpg"
+        }
+    },
+    {
+        "name": "Sarap Apartments", 
+        "images": {
+            "image1": "images/destinations/Budva/Sarap Apartments/image_1.jpg",
+            "image2": "images/destinations/Budva/Sarap Apartments/image_2.jpg",
+            "image3": "images/destinations/Budva/Sarap Apartments/image_3.jpg",
+            "image4": "images/destinations/Budva/Sarap Apartments/image_4.jpg",
+            "image5": "images/destinations/Budva/Sarap Apartments/image_5.jpg",
+            "image6": "images/destinations/Budva/Sarap Apartments/image_6.jpg",
+            "image7": "images/destinations/Budva/Sarap Apartments/image_7.jpg",
+            "image8": "images/destinations/Budva/Sarap Apartments/image_8.jpg",
+            "image9": "images/destinations/Budva/Sarap Apartments/image_9.jpg",
+            "image10": "images/destinations/Budva/Sarap Apartments/image_10.jpg"
+        }
+    },
+    {
+        "name": "Splendid Conference & Spa Resort", 
+        "images": {
+            "image1": "images/destinations/Budva/Splendid Conference & Spa Resort/image_1.jpg",
+            "image2": "images/destinations/Budva/Splendid Conference & Spa Resort/image_2.jpg",
+            "image3": "images/destinations/Budva/Splendid Conference & Spa Resort/image_3.jpg",
+            "image4": "images/destinations/Budva/Splendid Conference & Spa Resort/image_4.jpg",
+            "image5": "images/destinations/Budva/Splendid Conference & Spa Resort/image_5.jpg",
+            "image6": "images/destinations/Budva/Splendid Conference & Spa Resort/image_6.jpg",
+            "image7": "images/destinations/Budva/Splendid Conference & Spa Resort/image_7.jpg",
+            "image8": "images/destinations/Budva/Splendid Conference & Spa Resort/image_8.jpg",
+            "image9": "images/destinations/Budva/Splendid Conference & Spa Resort/image_9.jpg",
+            "image10": "images/destinations/Budva/Splendid Conference & Spa Resort/image_10.jpg"
+        }
+    },
+    {
+        "name": "SunAdria Apartments", 
+        "images": {
+            "image1": "images/destinations/Budva/SunAdria Apartments/image_1.jpg",
+            "image2": "images/destinations/Budva/SunAdria Apartments/image_2.jpg",
+            "image3": "images/destinations/Budva/SunAdria Apartments/image_3.jpg",
+            "image4": "images/destinations/Budva/SunAdria Apartments/image_4.jpg",
+            "image5": "images/destinations/Budva/SunAdria Apartments/image_5.jpg",
+            "image6": "images/destinations/Budva/SunAdria Apartments/image_6.jpg",
+            "image7": "images/destinations/Budva/SunAdria Apartments/image_7.jpg",
+            "image8": "images/destinations/Budva/SunAdria Apartments/image_8.jpg",
+            "image9": "images/destinations/Budva/SunAdria Apartments/image_9.jpg",
+            "image10": "images/destinations/Budva/SunAdria Apartments/image_10.jpg"
+        }
+    },
+    {
+        "name": "The Old Town Terrace Apartments", 
+        "images": {
+            "image1": "images/destinations/Budva/The Old Town Terrace Apartments/image_1.jpg",
+            "image2": "images/destinations/Budva/The Old Town Terrace Apartments/image_2.jpg",
+            "image3": "images/destinations/Budva/The Old Town Terrace Apartments/image_3.jpg",
+            "image4": "images/destinations/Budva/The Old Town Terrace Apartments/image_4.jpg",
+            "image5": "images/destinations/Budva/The Old Town Terrace Apartments/image_5.jpg",
+            "image6": "images/destinations/Budva/The Old Town Terrace Apartments/image_6.jpg",
+            "image7": "images/destinations/Budva/The Old Town Terrace Apartments/image_7.jpg",
+            "image8": "images/destinations/Budva/The Old Town Terrace Apartments/image_8.jpg",
+            "image9": "images/destinations/Budva/The Old Town Terrace Apartments/image_9.jpg",
+            "image10": "images/destinations/Budva/The Old Town Terrace Apartments/image_10.jpg"
+        }
+    },
+    {
+        "name": "Vesna's Dream", 
+        "images": {
+            "image1": "images/destinations/Budva/Vesna's Dream/image_1.jpg",
+            "image2": "images/destinations/Budva/Vesna's Dream/image_2.jpg",
+            "image3": "images/destinations/Budva/Vesna's Dream/image_3.jpg",
+            "image4": "images/destinations/Budva/Vesna's Dream/image_4.jpg",
+            "image5": "images/destinations/Budva/Vesna's Dream/image_5.jpg",
+            "image6": "images/destinations/Budva/Vesna's Dream/image_6.jpg",
+            "image7": "images/destinations/Budva/Vesna's Dream/image_7.jpg",
+            "image8": "images/destinations/Budva/Vesna's Dream/image_8.jpg",
+            "image9": "images/destinations/Budva/Vesna's Dream/image_9.jpg",
+            "image10": "images/destinations/Budva/Vesna's Dream/image_10.jpg"
+        }
+    },
+    {
+        "name": "Victoria Residence Apartments", 
+        "images": {
+            "image1": "images/destinations/Budva/Victoria Residence Apartments/image_1.jpg",
+            "image2": "images/destinations/Budva/Victoria Residence Apartments/image_2.jpg",
+            "image3": "images/destinations/Budva/Victoria Residence Apartments/image_3.jpg",
+            "image4": "images/destinations/Budva/Victoria Residence Apartments/image_4.jpg",
+            "image5": "images/destinations/Budva/Victoria Residence Apartments/image_5.jpg",
+            "image6": "images/destinations/Budva/Victoria Residence Apartments/image_6.jpg",
+            "image7": "images/destinations/Budva/Victoria Residence Apartments/image_7.jpg",
+            "image8": "images/destinations/Budva/Victoria Residence Apartments/image_8.jpg",
+            "image9": "images/destinations/Budva/Victoria Residence Apartments/image_9.jpg",
+            "image10": "images/destinations/Budva/Victoria Residence Apartments/image_10.jpg"
+        }
+    }
+]

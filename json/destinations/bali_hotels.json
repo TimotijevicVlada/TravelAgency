@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Adiwana Warnakali Resort", 
+        "images": {
+            "image1": "images/destinations/Bali/Adiwana Warnakali Resort/image_1.jpg",
+            "image2": "images/destinations/Bali/Adiwana Warnakali Resort/image_2.jpg",
+            "image3": "images/destinations/Bali/Adiwana Warnakali Resort/image_3.jpg",
+            "image4": "images/destinations/Bali/Adiwana Warnakali Resort/image_4.jpg",
+            "image5": "images/destinations/Bali/Adiwana Warnakali Resort/image_5.jpg",
+            "image6": "images/destinations/Bali/Adiwana Warnakali Resort/image_6.jpg",
+            "image7": "images/destinations/Bali/Adiwana Warnakali Resort/image_7.jpg",
+            "image8": "images/destinations/Bali/Adiwana Warnakali Resort/image_8.jpg",
+            "image9": "images/destinations/Bali/Adiwana Warnakali Resort/image_9.jpg",
+            "image10": "images/destinations/Bali/Adiwana Warnakali Resort/image_10.jpg"
+        }
+    },
+    {
+        "name": "Alam Kawi Ubud Resort & Spa", 
+        "images": {
+            "image1": "images/destinations/Bali/Alam Kawi Ubud Resort & Spa/image_1.jpg",
+            "image2": "images/destinations/Bali/Alam Kawi Ubud Resort & Spa/image_2.jpg",
+            "image3": "images/destinations/Bali/Alam Kawi Ubud Resort & Spa/image_3.jpg",
+            "image4": "images/destinations/Bali/Alam Kawi Ubud Resort & Spa/image_4.jpg",
+            "image5": "images/destinations/Bali/Alam Kawi Ubud Resort & Spa/image_5.jpg",
+            "image6": "images/destinations/Bali/Alam Kawi Ubud Resort & Spa/image_6.jpg",
+            "image7": "images/destinations/Bali/Alam Kawi Ubud Resort & Spa/image_7.jpg",
+            "image8": "images/destinations/Bali/Alam Kawi Ubud Resort & Spa/image_8.jpg",
+            "image9": "images/destinations/Bali/Alam Kawi Ubud Resort & Spa/image_9.jpg",
+            "image10": "images/destinations/Bali/Alam Kawi Ubud Resort & Spa/image_10.jpg"
+        }
+    },
+    {
+        "name": "Amnaya Resort Kuta", 
+        "images": {
+            "image1": "images/destinations/Bali/Amnaya Resort Kuta/image_1.jpg",
+            "image2": "images/destinations/Bali/Amnaya Resort Kuta/image_2.jpg",
+            "image3": "images/destinations/Bali/Amnaya Resort Kuta/image_3.jpg",
+            "image4": "images/destinations/Bali/Amnaya Resort Kuta/image_4.jpg",
+            "image5": "images/destinations/Bali/Amnaya Resort Kuta/image_5.jpg",
+            "image6": "images/destinations/Bali/Amnaya Resort Kuta/image_6.jpg",
+            "image7": "images/destinations/Bali/Amnaya Resort Kuta/image_7.jpg",
+            "image8": "images/destinations/Bali/Amnaya Resort Kuta/image_8.jpg",
+            "image9": "images/destinations/Bali/Amnaya Resort Kuta/image_9.jpg",
+            "image10": "images/destinations/Bali/Amnaya Resort Kuta/image_10.jpg"
+        }
+    },
+    {
+        "name": "Grandmas Plus Hotel Seminyak", 
+        "images": {
+            "image1": "images/destinations/Bali/Grandmas Plus Hotel Seminyak/image_1.jpg",
+            "image2": "images/destinations/Bali/Grandmas Plus Hotel Seminyak/image_2.jpg",
+            "image3": "images/destinations/Bali/Grandmas Plus Hotel Seminyak/image_3.jpg",
+            "image4": "images/destinations/Bali/Grandmas Plus Hotel Seminyak/image_4.jpg",
+            "image5": "images/destinations/Bali/Grandmas Plus Hotel Seminyak/image_5.jpg",
+            "image6": "images/destinations/Bali/Grandmas Plus Hotel Seminyak/image_6.jpg",
+            "image7": "images/destinations/Bali/Grandmas Plus Hotel Seminyak/image_7.jpg",
+            "image8": "images/destinations/Bali/Grandmas Plus Hotel Seminyak/image_8.jpg",
+            "image9": "images/destinations/Bali/Grandmas Plus Hotel Seminyak/image_9.jpg",
+            "image10": "images/destinations/Bali/Grandmas Plus Hotel Seminyak/image_10.jpg"
+        }
+    },
+    {
+        "name": "Lempuyang Boutique Hotel", 
+        "images": {
+            "image1": "images/destinations/Bali/Lempuyang Boutique Hotel/image_1.jpg",
+            "image2": "images/destinations/Bali/Lempuyang Boutique Hotel/image_2.jpg",
+            "image3": "images/destinations/Bali/Lempuyang Boutique Hotel/image_3.jpg",
+            "image4": "images/destinations/Bali/Lempuyang Boutique Hotel/image_4.jpg",
+            "image5": "images/destinations/Bali/Lempuyang Boutique Hotel/image_5.jpg",
+            "image6": "images/destinations/Bali/Lempuyang Boutique Hotel/image_6.jpg",
+            "image7": "images/destinations/Bali/Lempuyang Boutique Hotel/image_7.jpg",
+            "image8": "images/destinations/Bali/Lempuyang Boutique Hotel/image_8.jpg",
+            "image9": "images/destinations/Bali/Lempuyang Boutique Hotel/image_9.jpg",
+            "image10": "images/destinations/Bali/Lempuyang Boutique Hotel/image_10.jpg"
+        }
+    },
+    {
+        "name": "Mejore Hotel", 
+        "images": {
+            "image1": "images/destinations/Bali/Mejore Hotel/image_1.jpg",
+            "image2": "images/destinations/Bali/Mejore Hotel/image_2.jpg",
+            "image3": "images/destinations/Bali/Mejore Hotel/image_3.jpg",
+            "image4": "images/destinations/Bali/Mejore Hotel/image_4.jpg",
+            "image5": "images/destinations/Bali/Mejore Hotel/image_5.jpg",
+            "image6": "images/destinations/Bali/Mejore Hotel/image_6.jpg",
+            "image7": "images/destinations/Bali/Mejore Hotel/image_7.jpg",
+            "image8": "images/destinations/Bali/Mejore Hotel/image_8.jpg",
+            "image9": "images/destinations/Bali/Mejore Hotel/image_9.jpg",
+            "image10": "images/destinations/Bali/Mejore Hotel/image_10.jpg"
+        }
+    },
+    {
+        "name": "Menjangan Hill", 
+        "images": {
+            "image1": "images/destinations/Bali/Menjangan Hill/image_1.jpg",
+            "image2": "images/destinations/Bali/Menjangan Hill/image_2.jpg",
+            "image3": "images/destinations/Bali/Menjangan Hill/image_3.jpg",
+            "image4": "images/destinations/Bali/Menjangan Hill/image_4.jpg",
+            "image5": "images/destinations/Bali/Menjangan Hill/image_5.jpg",
+            "image6": "images/destinations/Bali/Menjangan Hill/image_6.jpg",
+            "image7": "images/destinations/Bali/Menjangan Hill/image_7.jpg",
+            "image8": "images/destinations/Bali/Menjangan Hill/image_8.jpg",
+            "image9": "images/destinations/Bali/Menjangan Hill/image_9.jpg",
+            "image10": "images/destinations/Bali/Menjangan Hill/image_10.jpg"
+        }
+    },
+    {
+        "name": "Merusaka Nusa Dua", 
+        "images": {
+            "image1": "images/destinations/Bali/Merusaka Nusa Dua/image_1.jpg",
+            "image2": "images/destinations/Bali/Merusaka Nusa Dua/image_2.jpg",
+            "image3": "images/destinations/Bali/Merusaka Nusa Dua/image_3.jpg",
+            "image4": "images/destinations/Bali/Merusaka Nusa Dua/image_4.jpg",
+            "image5": "images/destinations/Bali/Merusaka Nusa Dua/image_5.jpg",
+            "image6": "images/destinations/Bali/Merusaka Nusa Dua/image_6.jpg",
+            "image7": "images/destinations/Bali/Merusaka Nusa Dua/image_7.jpg",
+            "image8": "images/destinations/Bali/Merusaka Nusa Dua/image_8.jpg",
+            "image9": "images/destinations/Bali/Merusaka Nusa Dua/image_9.jpg",
+            "image10": "images/destinations/Bali/Merusaka Nusa Dua/image_10.jpg"
+        }
+    },
+    {
+        "name": "Nirjahara", 
+        "images": {
+            "image1": "images/destinations/Bali/Nirjahara/image_1.jpg",
+            "image2": "images/destinations/Bali/Nirjahara/image_2.jpg",
+            "image3": "images/destinations/Bali/Nirjahara/image_3.jpg",
+            "image4": "images/destinations/Bali/Nirjahara/image_4.jpg",
+            "image5": "images/destinations/Bali/Nirjahara/image_5.jpg",
+            "image6": "images/destinations/Bali/Nirjahara/image_6.jpg",
+            "image7": "images/destinations/Bali/Nirjahara/image_7.jpg",
+            "image8": "images/destinations/Bali/Nirjahara/image_8.jpg",
+            "image9": "images/destinations/Bali/Nirjahara/image_9.jpg",
+            "image10": "images/destinations/Bali/Nirjahara/image_10.jpg"
+        }
+    },
+    {
+        "name": "Purana Suite Ubud", 
+        "images": {
+            "image1": "images/destinations/Bali/Purana Suite Ubud/image_1.jpg",
+            "image2": "images/destinations/Bali/Purana Suite Ubud/image_2.jpg",
+            "image3": "images/destinations/Bali/Purana Suite Ubud/image_3.jpg",
+            "image4": "images/destinations/Bali/Purana Suite Ubud/image_4.jpg",
+            "image5": "images/destinations/Bali/Purana Suite Ubud/image_5.jpg",
+            "image6": "images/destinations/Bali/Purana Suite Ubud/image_6.jpg",
+            "image7": "images/destinations/Bali/Purana Suite Ubud/image_7.jpg",
+            "image8": "images/destinations/Bali/Purana Suite Ubud/image_8.jpg",
+            "image9": "images/destinations/Bali/Purana Suite Ubud/image_9.jpg",
+            "image10": "images/destinations/Bali/Purana Suite Ubud/image_10.jpg"
+        }
+    },
+    {
+        "name": "The Kalayana Ubud Resort", 
+        "images": {
+            "image1": "images/destinations/Bali/The Kalayana Ubud Resort/image_1.jpg",
+            "image2": "images/destinations/Bali/The Kalayana Ubud Resort/image_2.jpg",
+            "image3": "images/destinations/Bali/The Kalayana Ubud Resort/image_3.jpg",
+            "image4": "images/destinations/Bali/The Kalayana Ubud Resort/image_4.jpg",
+            "image5": "images/destinations/Bali/The Kalayana Ubud Resort/image_5.jpg",
+            "image6": "images/destinations/Bali/The Kalayana Ubud Resort/image_6.jpg",
+            "image7": "images/destinations/Bali/The Kalayana Ubud Resort/image_7.jpg",
+            "image8": "images/destinations/Bali/The Kalayana Ubud Resort/image_8.jpg",
+            "image9": "images/destinations/Bali/The Kalayana Ubud Resort/image_9.jpg",
+            "image10": "images/destinations/Bali/The Kalayana Ubud Resort/image_10.jpg"
+        }
+    },
+    {
+        "name": "The Saren", 
+        "images": {
+            "image1": "images/destinations/Bali/The Saren/image_1.jpg",
+            "image2": "images/destinations/Bali/The Saren/image_2.jpg",
+            "image3": "images/destinations/Bali/The Saren/image_3.jpg",
+            "image4": "images/destinations/Bali/The Saren/image_4.jpg",
+            "image5": "images/destinations/Bali/The Saren/image_5.jpg",
+            "image6": "images/destinations/Bali/The Saren/image_6.jpg",
+            "image7": "images/destinations/Bali/The Saren/image_7.jpg",
+            "image8": "images/destinations/Bali/The Saren/image_8.jpg",
+            "image9": "images/destinations/Bali/The Saren/image_9.jpg",
+            "image10": "images/destinations/Bali/The Saren/image_10.jpg"
+        }
+    }
+]

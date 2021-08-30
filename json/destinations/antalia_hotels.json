@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Akra Hotel", 
+        "images": {
+            "image1": "images/destinations/Antalia/Akra Hotel/image_1.jpg",
+            "image2": "images/destinations/Antalia/Akra Hotel/image_2.jpg",
+            "image3": "images/destinations/Antalia/Akra Hotel/image_3.jpg",
+            "image4": "images/destinations/Antalia/Akra Hotel/image_4.jpg",
+            "image5": "images/destinations/Antalia/Akra Hotel/image_5.jpg",
+            "image6": "images/destinations/Antalia/Akra Hotel/image_6.jpg",
+            "image7": "images/destinations/Antalia/Akra Hotel/image_7.jpg",
+            "image8": "images/destinations/Antalia/Akra Hotel/image_8.jpg",
+            "image9": "images/destinations/Antalia/Akra Hotel/image_9.jpg",
+            "image10": "images/destinations/Antalia/Akra Hotel/image_10.jpg"
+        }
+    },
+    {
+        "name": "Alanya Goldcity", 
+        "images": {
+            "image1": "images/destinations/Antalia/Alanya Goldcity/image_1.jpg",
+            "image2": "images/destinations/Antalia/Alanya Goldcity/image_2.jpg",
+            "image3": "images/destinations/Antalia/Alanya Goldcity/image_3.jpg",
+            "image4": "images/destinations/Antalia/Alanya Goldcity/image_4.jpg",
+            "image5": "images/destinations/Antalia/Alanya Goldcity/image_5.jpg",
+            "image6": "images/destinations/Antalia/Alanya Goldcity/image_6.jpg",
+            "image7": "images/destinations/Antalia/Alanya Goldcity/image_7.jpg",
+            "image8": "images/destinations/Antalia/Alanya Goldcity/image_8.jpg",
+            "image9": "images/destinations/Antalia/Alanya Goldcity/image_9.jpg",
+            "image10": "images/destinations/Antalia/Alanya Goldcity/image_10.jpg"
+        }
+    },
+    {
+        "name": "Atelya Art Hotel", 
+        "images": {
+            "image1": "images/destinations/Antalia/Atelya Art Hotel/image_1.jpg",
+            "image2": "images/destinations/Antalia/Atelya Art Hotel/image_2.jpg",
+            "image3": "images/destinations/Antalia/Atelya Art Hotel/image_3.jpg",
+            "image4": "images/destinations/Antalia/Atelya Art Hotel/image_4.jpg",
+            "image5": "images/destinations/Antalia/Atelya Art Hotel/image_5.jpg",
+            "image6": "images/destinations/Antalia/Atelya Art Hotel/image_6.jpg",
+            "image7": "images/destinations/Antalia/Atelya Art Hotel/image_7.jpg",
+            "image8": "images/destinations/Antalia/Atelya Art Hotel/image_8.jpg",
+            "image9": "images/destinations/Antalia/Atelya Art Hotel/image_9.jpg",
+            "image10": "images/destinations/Antalia/Atelya Art Hotel/image_10.jpg"
+        }
+    },
+    {
+        "name": "Crowne Plaza Antaliya", 
+        "images": {
+            "image1": "images/destinations/Antalia/Crowne Plaza Antaliya/image_1.jpg",
+            "image2": "images/destinations/Antalia/Crowne Plaza Antaliya/image_2.jpg",
+            "image3": "images/destinations/Antalia/Crowne Plaza Antaliya/image_3.jpg",
+            "image4": "images/destinations/Antalia/Crowne Plaza Antaliya/image_4.jpg",
+            "image5": "images/destinations/Antalia/Crowne Plaza Antaliya/image_5.jpg",
+            "image6": "images/destinations/Antalia/Crowne Plaza Antaliya/image_6.jpg",
+            "image7": "images/destinations/Antalia/Crowne Plaza Antaliya/image_7.jpg",
+            "image8": "images/destinations/Antalia/Crowne Plaza Antaliya/image_8.jpg",
+            "image9": "images/destinations/Antalia/Crowne Plaza Antaliya/image_9.jpg",
+            "image10": "images/destinations/Antalia/Crowne Plaza Antaliya/image_10.jpg"
+        }
+    },
+    {
+        "name": "Doubletree By Hilton Antalya City Centre", 
+        "images": {
+            "image1": "images/destinations/Antalia/Doubletree By Hilton Antalya City Centre/image_1.jpg",
+            "image2": "images/destinations/Antalia/Doubletree By Hilton Antalya City Centre/image_2.jpg",
+            "image3": "images/destinations/Antalia/Doubletree By Hilton Antalya City Centre/image_3.jpg",
+            "image4": "images/destinations/Antalia/Doubletree By Hilton Antalya City Centre/image_4.jpg",
+            "image5": "images/destinations/Antalia/Doubletree By Hilton Antalya City Centre/image_5.jpg",
+            "image6": "images/destinations/Antalia/Doubletree By Hilton Antalya City Centre/image_6.jpg",
+            "image7": "images/destinations/Antalia/Doubletree By Hilton Antalya City Centre/image_7.jpg",
+            "image8": "images/destinations/Antalia/Doubletree By Hilton Antalya City Centre/image_8.jpg",
+            "image9": "images/destinations/Antalia/Doubletree By Hilton Antalya City Centre/image_9.jpg",
+            "image10": "images/destinations/Antalia/Doubletree By Hilton Antalya City Centre/image_10.jpg"
+        }
+    },
+    {
+        "name": "Flamingo Residence", 
+        "images": {
+            "image1": "images/destinations/Antalia/Flamingo Residence/image_1.jpg",
+            "image2": "images/destinations/Antalia/Flamingo Residence/image_2.jpg",
+            "image3": "images/destinations/Antalia/Flamingo Residence/image_3.jpg",
+            "image4": "images/destinations/Antalia/Flamingo Residence/image_4.jpg",
+            "image5": "images/destinations/Antalia/Flamingo Residence/image_5.jpg",
+            "image6": "images/destinations/Antalia/Flamingo Residence/image_6.jpg",
+            "image7": "images/destinations/Antalia/Flamingo Residence/image_7.jpg",
+            "image8": "images/destinations/Antalia/Flamingo Residence/image_8.jpg",
+            "image9": "images/destinations/Antalia/Flamingo Residence/image_9.jpg",
+            "image10": "images/destinations/Antalia/Flamingo Residence/image_10.jpg"
+        }
+    },
+    {
+        "name": "Holiday Inn Antalya", 
+        "images": {
+            "image1": "images/destinations/Antalia/Holiday Inn Antalya/image_1.jpg",
+            "image2": "images/destinations/Antalia/Holiday Inn Antalya/image_2.jpg",
+            "image3": "images/destinations/Antalia/Holiday Inn Antalya/image_3.jpg",
+            "image4": "images/destinations/Antalia/Holiday Inn Antalya/image_4.jpg",
+            "image5": "images/destinations/Antalia/Holiday Inn Antalya/image_5.jpg",
+            "image6": "images/destinations/Antalia/Holiday Inn Antalya/image_6.jpg",
+            "image7": "images/destinations/Antalia/Holiday Inn Antalya/image_7.jpg",
+            "image8": "images/destinations/Antalia/Holiday Inn Antalya/image_8.jpg",
+            "image9": "images/destinations/Antalia/Holiday Inn Antalya/image_9.jpg",
+            "image10": "images/destinations/Antalia/Holiday Inn Antalya/image_10.jpg"
+        }
+    },
+    {
+        "name": "Laren Family Hotel & Spa", 
+        "images": {
+            "image1": "images/destinations/Antalia/Laren Family Hotel & Spa/image_1.jpg",
+            "image2": "images/destinations/Antalia/Laren Family Hotel & Spa/image_2.jpg",
+            "image3": "images/destinations/Antalia/Laren Family Hotel & Spa/image_3.jpg",
+            "image4": "images/destinations/Antalia/Laren Family Hotel & Spa/image_4.jpg",
+            "image5": "images/destinations/Antalia/Laren Family Hotel & Spa/image_5.jpg",
+            "image6": "images/destinations/Antalia/Laren Family Hotel & Spa/image_6.jpg",
+            "image7": "images/destinations/Antalia/Laren Family Hotel & Spa/image_7.jpg",
+            "image8": "images/destinations/Antalia/Laren Family Hotel & Spa/image_8.jpg",
+            "image9": "images/destinations/Antalia/Laren Family Hotel & Spa/image_9.jpg",
+            "image10": "images/destinations/Antalia/Laren Family Hotel & Spa/image_10.jpg"
+        }
+    },
+    {
+        "name": "Laren Sea Side Hotel Spa", 
+        "images": {
+            "image1": "images/destinations/Antalia/Laren Sea Side Hotel Spa/image_1.jpg",
+            "image2": "images/destinations/Antalia/Laren Sea Side Hotel Spa/image_2.jpg",
+            "image3": "images/destinations/Antalia/Laren Sea Side Hotel Spa/image_3.jpg",
+            "image4": "images/destinations/Antalia/Laren Sea Side Hotel Spa/image_4.jpg",
+            "image5": "images/destinations/Antalia/Laren Sea Side Hotel Spa/image_5.jpg",
+            "image6": "images/destinations/Antalia/Laren Sea Side Hotel Spa/image_6.jpg",
+            "image7": "images/destinations/Antalia/Laren Sea Side Hotel Spa/image_7.jpg",
+            "image8": "images/destinations/Antalia/Laren Sea Side Hotel Spa/image_8.jpg",
+            "image9": "images/destinations/Antalia/Laren Sea Side Hotel Spa/image_9.jpg",
+            "image10": "images/destinations/Antalia/Laren Sea Side Hotel Spa/image_10.jpg"
+        }
+    },
+    {
+        "name": "Tourist Hotel", 
+        "images": {
+            "image1": "images/destinations/Antalia/Tourist Hotel/image_1.jpg",
+            "image2": "images/destinations/Antalia/Tourist Hotel/image_2.jpg",
+            "image3": "images/destinations/Antalia/Tourist Hotel/image_3.jpg",
+            "image4": "images/destinations/Antalia/Tourist Hotel/image_4.jpg",
+            "image5": "images/destinations/Antalia/Tourist Hotel/image_5.jpg",
+            "image6": "images/destinations/Antalia/Tourist Hotel/image_6.jpg",
+            "image7": "images/destinations/Antalia/Tourist Hotel/image_7.jpg",
+            "image8": "images/destinations/Antalia/Tourist Hotel/image_8.jpg",
+            "image9": "images/destinations/Antalia/Tourist Hotel/image_9.jpg",
+            "image10": "images/destinations/Antalia/Tourist Hotel/image_10.jpg"
+        }
+    },
+    {
+        "name": "Wellness Apartment Antalya", 
+        "images": {
+            "image1": "images/destinations/Antalia/Wellness Apartment Antalya/image_1.jpg",
+            "image2": "images/destinations/Antalia/Wellness Apartment Antalya/image_2.jpg",
+            "image3": "images/destinations/Antalia/Wellness Apartment Antalya/image_3.jpg",
+            "image4": "images/destinations/Antalia/Wellness Apartment Antalya/image_4.jpg",
+            "image5": "images/destinations/Antalia/Wellness Apartment Antalya/image_5.jpg",
+            "image6": "images/destinations/Antalia/Wellness Apartment Antalya/image_6.jpg",
+            "image7": "images/destinations/Antalia/Wellness Apartment Antalya/image_7.jpg",
+            "image8": "images/destinations/Antalia/Wellness Apartment Antalya/image_8.jpg",
+            "image9": "images/destinations/Antalia/Wellness Apartment Antalya/image_9.jpg",
+            "image10": "images/destinations/Antalia/Wellness Apartment Antalya/image_10.jpg"
+        }
+    },
+    {
+        "name": "Zeynel Hotel", 
+        "images": {
+            "image1": "images/destinations/Antalia/Zeynel Hotel/image_1.jpg",
+            "image2": "images/destinations/Antalia/Zeynel Hotel/image_2.jpg",
+            "image3": "images/destinations/Antalia/Zeynel Hotel/image_3.jpg",
+            "image4": "images/destinations/Antalia/Zeynel Hotel/image_4.jpg",
+            "image5": "images/destinations/Antalia/Zeynel Hotel/image_5.jpg",
+            "image6": "images/destinations/Antalia/Zeynel Hotel/image_6.jpg",
+            "image7": "images/destinations/Antalia/Zeynel Hotel/image_7.jpg",
+            "image8": "images/destinations/Antalia/Zeynel Hotel/image_8.jpg",
+            "image9": "images/destinations/Antalia/Zeynel Hotel/image_9.jpg",
+            "image10": "images/destinations/Antalia/Zeynel Hotel/image_10.jpg"
+        }
+    }
+]
