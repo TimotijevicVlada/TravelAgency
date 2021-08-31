@@ -221,20 +221,35 @@ main {
 /*Hotels*/
 .hotel_wrapper {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
+  background-color: rgb(231, 231, 231);
   .hotel {
     width: 400px;
-    height: 200px;
-    border: 1px solid black;
+    height: 240px;
+    margin: 10px 0px;
+    background-color: white;
+    border-radius: 5px;
     .header {
       height: 20%;
-      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h3 {
+        font-weight: 200;
+        text-align: center;
+        margin: 0 10px;
+      }
     }
     .info {
       height: 80%;
       display: flex;
       .image {
         width: 50%;
+        text-align: center;
+        img {
+          width: 90%;
+        }
       }
       .information {
         width: 50%;
@@ -244,6 +259,33 @@ main {
         .info_upper {
           display: flex;
           flex-direction: column;
+          div {
+            background-color: rgb(226, 226, 226);
+            margin: 4px;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+            .price_num, .transport, .nights_number {
+              color: rgb(12, 12, 185);
+              font-weight: bold;
+            }
+          }
+        }
+        button {
+          padding: 5px;
+          font-size: $smallFont;
+          font-weight: bold;
+          color: white;
+          background-color: rgb(12, 12, 185);
+          border: none;
+          margin: 0px 5px 5px 5px;
+          border: 1px solid transparent;
+          &:hover {
+            background-color: white;
+            border: 1px solid rgb(12, 12, 185);
+            color: rgb(12, 12, 185);
+            cursor: pointer;
+          }
         }
       }
     }

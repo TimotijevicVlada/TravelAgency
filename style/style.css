@@ -268,19 +268,38 @@ main .categories_wrapper .categories_card .btn button i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background-color: #e7e7e7;
 }
 
 .hotel_wrapper .hotel {
   width: 400px;
-  height: 200px;
-  border: 1px solid black;
+  height: 240px;
+  margin: 10px 0px;
+  background-color: white;
+  border-radius: 5px;
 }
 
 .hotel_wrapper .hotel .header {
   height: 20%;
-  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hotel_wrapper .hotel .header h3 {
+  font-weight: 200;
+  text-align: center;
+  margin: 0 10px;
 }
 
 .hotel_wrapper .hotel .info {
@@ -292,6 +311,11 @@ main .categories_wrapper .categories_card .btn button i {
 
 .hotel_wrapper .hotel .info .image {
   width: 50%;
+  text-align: center;
+}
+
+.hotel_wrapper .hotel .info .image img {
+  width: 90%;
 }
 
 .hotel_wrapper .hotel .info .information {
@@ -316,6 +340,41 @@ main .categories_wrapper .categories_card .btn button i {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.hotel_wrapper .hotel .info .information .info_upper div {
+  background-color: #e2e2e2;
+  margin: 4px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hotel_wrapper .hotel .info .information .info_upper div .price_num, .hotel_wrapper .hotel .info .information .info_upper div .transport, .hotel_wrapper .hotel .info .information .info_upper div .nights_number {
+  color: #0c0cb9;
+  font-weight: bold;
+}
+
+.hotel_wrapper .hotel .info .information button {
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #0c0cb9;
+  border: none;
+  margin: 0px 5px 5px 5px;
+  border: 1px solid transparent;
+}
+
+.hotel_wrapper .hotel .info .information button:hover {
+  background-color: white;
+  border: 1px solid #0c0cb9;
+  color: #0c0cb9;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {

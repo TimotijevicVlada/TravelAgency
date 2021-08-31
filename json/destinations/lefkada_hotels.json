@@ -4,74 +4,39 @@
         "images": {
             "image1": "images/destinations/Lefkada/Apartments Avra/image_1.jpg",
             "image2": "images/destinations/Lefkada/Apartments Avra/image_2.jpg",
-            "image3": "images/destinations/Lefkada/Apartments Avra/image_3.jpg",
-            "image4": "images/destinations/Lefkada/Apartments Avra/image_4.jpg",
-            "image5": "images/destinations/Lefkada/Apartments Avra/image_5.jpg",
-            "image6": "images/destinations/Lefkada/Apartments Avra/image_6.jpg",
-            "image7": "images/destinations/Lefkada/Apartments Avra/image_7.jpg",
-            "image8": "images/destinations/Lefkada/Apartments Avra/image_8.jpg",
-            "image9": "images/destinations/Lefkada/Apartments Avra/image_9.jpg",
-            "image10": "images/destinations/Lefkada/Apartments Avra/image_10.jpg"
+            "image3": "images/destinations/Lefkada/Apartments Avra/image_3.jpg"
         }
     },
     {
         "name": "Crystal Waters", 
         "images": {
-            "image1": "images/destinations/Lefkada/Crystal Waters/image_1.jpg",
-            "image2": "images/destinations/Lefkada/Crystal Waters/image_2.jpg",
-            "image3": "images/destinations/Lefkada/Crystal Waters/image_3.jpg",
-            "image4": "images/destinations/Lefkada/Crystal Waters/image_4.jpg",
-            "image5": "images/destinations/Lefkada/Crystal Waters/image_5.jpg",
-            "image6": "images/destinations/Lefkada/Crystal Waters/image_6.jpg",
-            "image7": "images/destinations/Lefkada/Crystal Waters/image_7.jpg",
-            "image8": "images/destinations/Lefkada/Crystal Waters/image_8.jpg",
-            "image9": "images/destinations/Lefkada/Crystal Waters/image_9.jpg",
-            "image10": "images/destinations/Lefkada/Crystal Waters/image_10.jpg"
+            "image1": "images/destinations/Lefkada/Crystal Waters/image_1.jpeg",
+            "image2": "images/destinations/Lefkada/Crystal Waters/image_2.jpeg",
+            "image3": "images/destinations/Lefkada/Crystal Waters/image_3.jpeg"
         }
     },
     {
         "name": "Hotel Lefkas", 
         "images": {
-            "image1": "images/destinations/Lefkada/Hotel Lefkas/image_1.jpg",
-            "image2": "images/destinations/Lefkada/Hotel Lefkas/image_2.jpg",
-            "image3": "images/destinations/Lefkada/Hotel Lefkas/image_3.jpg",
-            "image4": "images/destinations/Lefkada/Hotel Lefkas/image_4.jpg",
-            "image5": "images/destinations/Lefkada/Hotel Lefkas/image_5.jpg",
-            "image6": "images/destinations/Lefkada/Hotel Lefkas/image_6.jpg",
-            "image7": "images/destinations/Lefkada/Hotel Lefkas/image_7.jpg",
-            "image8": "images/destinations/Lefkada/Hotel Lefkas/image_8.jpg",
-            "image9": "images/destinations/Lefkada/Hotel Lefkas/image_9.jpg",
-            "image10": "images/destinations/Lefkada/Hotel Lefkas/image_10.jpg"
+            "image1": "images/destinations/Lefkada/Hotel Lefkas/image_1.jpeg",
+            "image2": "images/destinations/Lefkada/Hotel Lefkas/image_2.jpeg",
+            "image3": "images/destinations/Lefkada/Hotel Lefkas/image_3.jpeg"
         }
     },
     {
         "name": "Ianos", 
         "images": {
-            "image1": "images/destinations/Lefkada/Ianos/image_1.jpg",
-            "image2": "images/destinations/Lefkada/Ianos/image_2.jpg",
-            "image3": "images/destinations/Lefkada/Ianos/image_3.jpg",
-            "image4": "images/destinations/Lefkada/Ianos/image_4.jpg",
-            "image5": "images/destinations/Lefkada/Ianos/image_5.jpg",
-            "image6": "images/destinations/Lefkada/Ianos/image_6.jpg",
-            "image7": "images/destinations/Lefkada/Ianos/image_7.jpg",
-            "image8": "images/destinations/Lefkada/Ianos/image_8.jpg",
-            "image9": "images/destinations/Lefkada/Ianos/image_9.jpg",
-            "image10": "images/destinations/Lefkada/Ianos/image_10.jpg"
+            "image1": "images/destinations/Lefkada/Ianos/image_1.jpeg",
+            "image2": "images/destinations/Lefkada/Ianos/image_2.jpeg",
+            "image3": "images/destinations/Lefkada/Ianos/image_3.jpeg"
         }
     },
     {
         "name": "Ionion star", 
         "images": {
-            "image1": "images/destinations/Lefkada/Ionion star/image_1.jpg",
-            "image2": "images/destinations/Lefkada/Ionion star/image_2.jpg",
-            "image3": "images/destinations/Lefkada/Ionion star/image_3.jpg",
-            "image4": "images/destinations/Lefkada/Ionion star/image_4.jpg",
-            "image5": "images/destinations/Lefkada/Ionion star/image_5.jpg",
-            "image6": "images/destinations/Lefkada/Ionion star/image_6.jpg",
-            "image7": "images/destinations/Lefkada/Ionion star/image_7.jpg",
-            "image8": "images/destinations/Lefkada/Ionion star/image_8.jpg",
-            "image9": "images/destinations/Lefkada/Ionion star/image_9.jpg",
-            "image10": "images/destinations/Lefkada/Ionion star/image_10.jpg"
+            "image1": "images/destinations/Lefkada/Ionion star/image_1.jpeg",
+            "image2": "images/destinations/Lefkada/Ionion star/image_2.jpeg",
+            "image3": "images/destinations/Lefkada/Ionion star/image_3.jpeg"
         }
     },
     {
@@ -79,29 +44,15 @@
         "images": {
             "image1": "images/destinations/Lefkada/Kastro Maistro/image_1.jpg",
             "image2": "images/destinations/Lefkada/Kastro Maistro/image_2.jpg",
-            "image3": "images/destinations/Lefkada/Kastro Maistro/image_3.jpg",
-            "image4": "images/destinations/Lefkada/Kastro Maistro/image_4.jpg",
-            "image5": "images/destinations/Lefkada/Kastro Maistro/image_5.jpg",
-            "image6": "images/destinations/Lefkada/Kastro Maistro/image_6.jpg",
-            "image7": "images/destinations/Lefkada/Kastro Maistro/image_7.jpg",
-            "image8": "images/destinations/Lefkada/Kastro Maistro/image_8.jpg",
-            "image9": "images/destinations/Lefkada/Kastro Maistro/image_9.jpg",
-            "image10": "images/destinations/Lefkada/Kastro Maistro/image_10.jpg"
+            "image3": "images/destinations/Lefkada/Kastro Maistro/image_3.jpg"
         }
     },
     {
         "name": "Katoi", 
         "images": {
-            "image1": "images/destinations/Lefkada/Katoi/image_1.jpg",
-            "image2": "images/destinations/Lefkada/Katoi/image_2.jpg",
-            "image3": "images/destinations/Lefkada/Katoi/image_3.jpg",
-            "image4": "images/destinations/Lefkada/Katoi/image_4.jpg",
-            "image5": "images/destinations/Lefkada/Katoi/image_5.jpg",
-            "image6": "images/destinations/Lefkada/Katoi/image_6.jpg",
-            "image7": "images/destinations/Lefkada/Katoi/image_7.jpg",
-            "image8": "images/destinations/Lefkada/Katoi/image_8.jpg",
-            "image9": "images/destinations/Lefkada/Katoi/image_9.jpg",
-            "image10": "images/destinations/Lefkada/Katoi/image_10.jpg"
+            "image1": "images/destinations/Lefkada/Katoi/image_1.jpeg",
+            "image2": "images/destinations/Lefkada/Katoi/image_2.jpeg",
+            "image3": "images/destinations/Lefkada/Katoi/image_3.jpeg"
         }
     },
     {
@@ -109,14 +60,7 @@
         "images": {
             "image1": "images/destinations/Lefkada/Niriides/image_1.jpg",
             "image2": "images/destinations/Lefkada/Niriides/image_2.jpg",
-            "image3": "images/destinations/Lefkada/Niriides/image_3.jpg",
-            "image4": "images/destinations/Lefkada/Niriides/image_4.jpg",
-            "image5": "images/destinations/Lefkada/Niriides/image_5.jpg",
-            "image6": "images/destinations/Lefkada/Niriides/image_6.jpg",
-            "image7": "images/destinations/Lefkada/Niriides/image_7.jpg",
-            "image8": "images/destinations/Lefkada/Niriides/image_8.jpg",
-            "image9": "images/destinations/Lefkada/Niriides/image_9.jpg",
-            "image10": "images/destinations/Lefkada/Niriides/image_10.jpg"
+            "image3": "images/destinations/Lefkada/Niriides/image_3.jpg"
         }
     },
     {
@@ -124,14 +68,7 @@
         "images": {
             "image1": "images/destinations/Lefkada/Pirofani/image_1.jpg",
             "image2": "images/destinations/Lefkada/Pirofani/image_2.jpg",
-            "image3": "images/destinations/Lefkada/Pirofani/image_3.jpg",
-            "image4": "images/destinations/Lefkada/Pirofani/image_4.jpg",
-            "image5": "images/destinations/Lefkada/Pirofani/image_5.jpg",
-            "image6": "images/destinations/Lefkada/Pirofani/image_6.jpg",
-            "image7": "images/destinations/Lefkada/Pirofani/image_7.jpg",
-            "image8": "images/destinations/Lefkada/Pirofani/image_8.jpg",
-            "image9": "images/destinations/Lefkada/Pirofani/image_9.jpg",
-            "image10": "images/destinations/Lefkada/Pirofani/image_10.jpg"
+            "image3": "images/destinations/Lefkada/Pirofani/image_3.jpg"
         }
     },
     {
@@ -139,14 +76,7 @@
         "images": {
             "image1": "images/destinations/Lefkada/Samiramis/image_1.jpg",
             "image2": "images/destinations/Lefkada/Samiramis/image_2.jpg",
-            "image3": "images/destinations/Lefkada/Samiramis/image_3.jpg",
-            "image4": "images/destinations/Lefkada/Samiramis/image_4.jpg",
-            "image5": "images/destinations/Lefkada/Samiramis/image_5.jpg",
-            "image6": "images/destinations/Lefkada/Samiramis/image_6.jpg",
-            "image7": "images/destinations/Lefkada/Samiramis/image_7.jpg",
-            "image8": "images/destinations/Lefkada/Samiramis/image_8.jpg",
-            "image9": "images/destinations/Lefkada/Samiramis/image_9.jpg",
-            "image10": "images/destinations/Lefkada/Samiramis/image_10.jpg"
+            "image3": "images/destinations/Lefkada/Samiramis/image_3.jpg"
         }
     },
     {
@@ -154,14 +84,7 @@
         "images": {
             "image1": "images/destinations/Lefkada/Vila Konstantin/image_1.jpg",
             "image2": "images/destinations/Lefkada/Vila Konstantin/image_2.jpg",
-            "image3": "images/destinations/Lefkada/Vila Konstantin/image_3.jpg",
-            "image4": "images/destinations/Lefkada/Vila Konstantin/image_4.jpg",
-            "image5": "images/destinations/Lefkada/Vila Konstantin/image_5.jpg",
-            "image6": "images/destinations/Lefkada/Vila Konstantin/image_6.jpg",
-            "image7": "images/destinations/Lefkada/Vila Konstantin/image_7.jpg",
-            "image8": "images/destinations/Lefkada/Vila Konstantin/image_8.jpg",
-            "image9": "images/destinations/Lefkada/Vila Konstantin/image_9.jpg",
-            "image10": "images/destinations/Lefkada/Vila Konstantin/image_10.jpg"
+            "image3": "images/destinations/Lefkada/Vila Konstantin/image_3.jpg"
         }
     },
     {
@@ -169,14 +92,7 @@
         "images": {
             "image1": "images/destinations/Lefkada/Vila Metropol/image_1.jpg",
             "image2": "images/destinations/Lefkada/Vila Metropol/image_2.jpg",
-            "image3": "images/destinations/Lefkada/Vila Metropol/image_3.jpg",
-            "image4": "images/destinations/Lefkada/Vila Metropol/image_4.jpg",
-            "image5": "images/destinations/Lefkada/Vila Metropol/image_5.jpg",
-            "image6": "images/destinations/Lefkada/Vila Metropol/image_6.jpg",
-            "image7": "images/destinations/Lefkada/Vila Metropol/image_7.jpg",
-            "image8": "images/destinations/Lefkada/Vila Metropol/image_8.jpg",
-            "image9": "images/destinations/Lefkada/Vila Metropol/image_9.jpg",
-            "image10": "images/destinations/Lefkada/Vila Metropol/image_10.jpg"
+            "image3": "images/destinations/Lefkada/Vila Metropol/image_3.jpg"
         }
     }
 ]

@@ -137,20 +137,6 @@ async function categories() {
     };
 }
 categories()
-/*
-//Function that return JSONS
-async function fetchJson(json) {
-    try {
-        const res = await fetch(json);
-        const data = await res.json();
-        let podaci = data;
-        return podaci; 
-
-    } catch (err) {
-        console.log(err);
-    }
-
-}*/
 
 //Function fatching categories destination
 async function viewOffer(btn) {
@@ -159,7 +145,7 @@ async function viewOffer(btn) {
     let name = parent.getElementsByClassName("name")[0].innerHTML;
     let nameLower = name.toLowerCase();
     
-    let res = await fetch("json/" + nameLower + "_hotels.json");
+    let res = await fetch("json/destinations/" + nameLower + "_hotels.json");
     let data = await res.json();
     console.log(data)
     
@@ -170,19 +156,25 @@ async function viewOffer(btn) {
         html += `
             <div class="hotel">
                 <div class="header">
-                    <h2>Ime hotela</h2>
+                    <h3>${data[i].name}</h3>
                 </div>
                 <div class="info">
                     <div class="image">
-                    <img src="slika" alt="hotel"/>
+                        <img src="${data[i].images.image1}" alt="${data[i].name}"/>
                     </div>
                     <div class="information">
                         <div class="info_upper">
-                        <span class="price">Cena hotela</span>
-                        <span class="transportation">Prevoz</span>
-                        <span class="num_nights">Broj nocenja</span>
-                    </div>
-                    <button>Details</button>
+                            <div>
+                                <span class="price">Price:</span><span class="price_num">50€</span>
+                            </div>
+                            <div>
+                                <span class="transportation">Transport:</span><span class="transport">Airplane</span>
+                            </div>
+                            <div>
+                                <span class="num_nights">Nights:</span><span class="nights_number">10</span>
+                            </div>
+                        </div>
+                        <button>Details</button>
                     </div>
                 </div>
             </div>    

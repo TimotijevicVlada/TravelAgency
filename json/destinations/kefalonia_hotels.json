@@ -1,182 +1,42 @@
 [
     {
-        "name": "Apartments Avra", 
+        "name": "Apolonian Asterias Resort and Spa", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Kefalonia/Apollonion Asterias Resort and Spa/image_1.jpg",
+            "image2": "images/destinations/Kefalonia/Apollonion Asterias Resort and Spa/image_2.jpg",
+            "image3": "images/destinations/Kefalonia/Apollonion Asterias Resort and Spa/image_3.jpg"
         }
     },
     {
-        "name": "Crystal Waters", 
+        "name": "Electra Kefalonia Hotel & Spa", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Kefalonia/Electra Kefalonia Hotel & Spa/image_1.jpg",
+            "image2": "images/destinations/Kefalonia/Electra Kefalonia Hotel & Spa/image_2.jpg",
+            "image3": "images/destinations/Kefalonia/Electra Kefalonia Hotel & Spa/image_3.jpg"
         }
     },
     {
-        "name": "Hotel Lefkas", 
+        "name": "Emelisse Nature Resort", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Kefalonia/Emelisse Nature Resort/image_1.jpg",
+            "image2": "images/destinations/Kefalonia/Emelisse Nature Resort/image_2.jpg",
+            "image3": "images/destinations/Kefalonia/Emelisse Nature Resort/image_3.jpg"
         }
     },
     {
-        "name": "Ianos", 
+        "name": "F Zeen", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Kefalonia/F Zeen/image_1.jpg",
+            "image2": "images/destinations/Kefalonia/F Zeen/image_2.jpg",
+            "image3": "images/destinations/Kefalonia/F Zeen/image_3.jpg"
         }
     },
     {
-        "name": "Ionion star", 
+        "name": "Ionian Emerald Resort", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
-        }
-    },
-    {
-        "name": "Kastro Maistro", 
-        "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
-        }
-    },
-    {
-        "name": "Katoi", 
-        "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
-        }
-    },
-    {
-        "name": "Niriides", 
-        "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
-        }
-    },
-    {
-        "name": "Pirofani", 
-        "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
-        }
-    },
-    {
-        "name": "Samiramis", 
-        "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
-        }
-    },
-    {
-        "name": "Vila Konstantin", 
-        "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
-        }
-    },
-    {
-        "name": "Vila Metropol", 
-        "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Kefalonia/Ionian Emerald Resort/image_1.jpg",
+            "image2": "images/destinations/Kefalonia/Ionian Emerald Resort/image_2.jpg",
+            "image3": "images/destinations/Kefalonia/Ionian Emerald Resort/image_3.jpg"
         }
     }
 ]

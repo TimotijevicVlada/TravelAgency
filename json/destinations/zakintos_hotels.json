@@ -1,182 +1,50 @@
 [
     {
-        "name": "Apartments Avra", 
+        "name": "Contessina Suites & Spa", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Zakintos/Contessina Suites & Spa/image_1.jpg",
+            "image2": "images/destinations/Zakintos/Contessina Suites & Spa/image_2.jpg",
+            "image3": "images/destinations/Zakintos/Contessina Suites & Spa/image_3.jpg"
         }
     },
     {
-        "name": "Crystal Waters", 
+        "name": "Lesante Blu, a member of The Leading Hotels of the World", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Zakintos/Lesante Blu, a member of The Leading Hotels of the World/image_1.jpg",
+            "image2": "images/destinations/Zakintos/Lesante Blu, a member of The Leading Hotels of the World/image_2.jpg",
+            "image3": "images/destinations/Zakintos/Lesante Blu, a member of The Leading Hotels of the World/image_3.jpg"
         }
     },
     {
-        "name": "Hotel Lefkas", 
+        "name": "New Aqua Hotel", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Zakintos/New Aqua Hotel/image_1.jpg",
+            "image2": "images/destinations/Zakintos/New Aqua Hotel/image_2.jpg",
+            "image3": "images/destinations/Zakintos/New Aqua Hotel/image_3.jpg"
         }
     },
     {
-        "name": "Ianos", 
+        "name": "Olea All Suite Hotel", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Zakintos/Olea All Suite Hotel/image_1.jpg",
+            "image2": "images/destinations/Zakintos/Olea All Suite Hotel/image_2.jpg",
+            "image3": "images/destinations/Zakintos/Olea All Suite Hotel/image_3.jpg"
         }
     },
     {
-        "name": "Ionion star", 
+        "name": "Tsamis Zante Suites", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Zakintos/Tsamis Zante Suites/image_1.jpg",
+            "image2": "images/destinations/Zakintos/Tsamis Zante Suites/image_2.jpg",
+            "image3": "images/destinations/Zakintos/Tsamis Zante Suites/image_3.jpg"
         }
     },
     {
-        "name": "Kastro Maistro", 
+        "name": "Zante Maris Suites", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
-        }
-    },
-    {
-        "name": "Katoi", 
-        "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
-        }
-    },
-    {
-        "name": "Niriides", 
-        "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
-        }
-    },
-    {
-        "name": "Pirofani", 
-        "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
-        }
-    },
-    {
-        "name": "Samiramis", 
-        "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
-        }
-    },
-    {
-        "name": "Vila Konstantin", 
-        "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
-        }
-    },
-    {
-        "name": "Vila Metropol", 
-        "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Zakintos/Zante Maris Suites/image_1.jpg",
+            "image2": "images/destinations/Zakintos/Zante Maris Suites/image_2.jpg",
+            "image3": "images/destinations/Zakintos/Zante Maris Suites/image_3.jpg"
         }
     }
 ]

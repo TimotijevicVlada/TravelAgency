@@ -13,7 +13,7 @@
             "img": "images/categories/croatia_categories.jpg",
             "alt": "croatia_img"
         },
-        "name": "Croatia",
+        "name": "Antalia",
         "title": "Croatia apartmants summer 2021",
         "text": "See last minute offers action for apartmants rooms in the Croatia"
     },
@@ -22,7 +22,7 @@
             "img": "images/categories/montenegro_categories.jpg",
             "alt": "montenegro_img"
         },
-        "name": "Montenegro",
+        "name": "Budva",
         "title": "Montenegro apartmants summer 2021",
         "text": "See last minute offers action for apartmants rooms in the Montenegro"
     },
@@ -31,7 +31,7 @@
             "img": "images/categories/turkey_categories.jpg",
             "alt": "turkey_img"
         },
-        "name": "Turkey",
+        "name": "Bali",
         "title": "Turkey apartmants summer 2021",
         "text": "See last minute offers action for apartmants rooms in the Turkey"
     },
@@ -40,7 +40,7 @@
             "img": "images/categories/bali_categories.jpg",
             "alt": "bali_img"
         },
-        "name": "Bali",
+        "name": "Seyshelles",
         "title": "Bali apartmants summer 2021",
         "text": "See last minute offers action for apartmants rooms in the Bali"
     },
@@ -58,7 +58,7 @@
             "img": "images/categories/cuba_categories.jfif",
             "alt": "cuba_img"
         },
-        "name": "Cuba",
+        "name": "Zakintos",
         "title": "Cuba apartmants summer 2021",
         "text": "See last minute offers action for apartmants rooms in the Cuba"
     },
@@ -67,7 +67,7 @@
             "img": "images/categories/seyshelles_categories.jfif",
             "alt": "seysheles_img"
         },
-        "name": "Seyshelles",
+        "name": "Maldives",
         "title": "Seyshelles apartmants summer 2021",
         "text": "See last minute offers action for apartmants rooms in the Seyshelles"
     },
@@ -76,7 +76,7 @@
             "img": "images/categories/maldives_categories.jpg",
             "alt": "maldives_img"
         },
-        "name": "Maldives",
+        "name": "Kefalonia",
         "title": "Maldives apartmants summer 2021",
         "text": "See last minute offers action for apartmants rooms in the Maldives"
     }

@@ -1,182 +1,98 @@
 [
     {
-        "name": "Apolonia Asterias Resort and Spa", 
+        "name": "Clove Island Villas & Apartments", 
         "images": {
-            "image1": "images/destinations/Kefalonija/Apolonia Asterias Resort and Spa/image_1.jpg",
-            "image2": "images/destinations/Kefalonija/Apolonia Asterias Resort and Spa/image_2.jpg",
-            "image3": "images/destinations/Kefalonija/Apolonia Asterias Resort and Spa/image_3.jpg",
-            "image4": "images/destinations/Kefalonija/Apolonia Asterias Resort and Spa/image_4.jpg",
-            "image5": "images/destinations/Kefalonija/Apolonia Asterias Resort and Spa/image_5.jpg",
-            "image6": "images/destinations/Kefalonija/Apolonia Asterias Resort and Spa/image_6.jpg",
-            "image7": "images/destinations/Kefalonija/Apolonia Asterias Resort and Spa/image_7.jpg",
-            "image8": "images/destinations/Kefalonija/Apolonia Asterias Resort and Spa/image_8.jpg",
-            "image9": "images/destinations/Kefalonija/Apolonia Asterias Resort and Spa/image_9.jpg",
-            "image10": "images/destinations/Kefalonija/Apolonia Asterias Resort and Spa/image_10.jpg"
+            "image1": "images/destinations/Zanzibar/Clove Island Villas & Apartments/image_1.jpg",
+            "image2": "images/destinations/Zanzibar/Clove Island Villas & Apartments/image_2.jpg",
+            "image3": "images/destinations/Zanzibar/Clove Island Villas & Apartments/image_3.jpg"
         }
     },
     {
-        "name": "Electra Kefalonia Hotel & Spa", 
+        "name": "Kizikula", 
         "images": {
-            "image1": "images/destinations/Kefalonija/Electra Kefalonia Hotel & Spa/image_1.jpg",
-            "image2": "images/destinations/Kefalonija/Electra Kefalonia Hotel & Spa/image_2.jpg",
-            "image3": "images/destinations/Kefalonija/Electra Kefalonia Hotel & Spa/image_3.jpg",
-            "image4": "images/destinations/Kefalonija/Electra Kefalonia Hotel & Spa/image_4.jpg",
-            "image5": "images/destinations/Kefalonija/Electra Kefalonia Hotel & Spa/image_5.jpg",
-            "image6": "images/destinations/Kefalonija/Electra Kefalonia Hotel & Spa/image_6.jpg",
-            "image7": "images/destinations/Kefalonija/Electra Kefalonia Hotel & Spa/image_7.jpg",
-            "image8": "images/destinations/Kefalonija/Electra Kefalonia Hotel & Spa/image_8.jpg",
-            "image9": "images/destinations/Kefalonija/Electra Kefalonia Hotel & Spa/image_9.jpg",
-            "image10": "images/destinations/Kefalonija/Electra Kefalonia Hotel & Spa/image_10.jpg"
+            "image1": "images/destinations/Zanzibar/Kizikula/image_1.jpg",
+            "image2": "images/destinations/Zanzibar/Kizikula/image_2.jpg",
+            "image3": "images/destinations/Zanzibar/Kizikula/image_3.jpg"
         }
     },
     {
-        "name": "Emelisse Nature Resort", 
+        "name": "Mchanga", 
         "images": {
-            "image1": "images/destinations/Kefalonija/Emelisse Nature Resort/image_1.jpg",
-            "image2": "images/destinations/Kefalonija/Emelisse Nature Resort/image_2.jpg",
-            "image3": "images/destinations/Kefalonija/Emelisse Nature Resort/image_3.jpg",
-            "image4": "images/destinations/Kefalonija/Emelisse Nature Resort/image_4.jpg",
-            "image5": "images/destinations/Kefalonija/Emelisse Nature Resort/image_5.jpg",
-            "image6": "images/destinations/Kefalonija/Emelisse Nature Resort/image_6.jpg",
-            "image7": "images/destinations/Kefalonija/Emelisse Nature Resort/image_7.jpg",
-            "image8": "images/destinations/Kefalonija/Emelisse Nature Resort/image_8.jpg",
-            "image9": "images/destinations/Kefalonija/Emelisse Nature Resort/image_9.jpg",
-            "image10": "images/destinations/Kefalonija/Emelisse Nature Resort/image_10.jpg"
+            "image1": "images/destinations/Zanzibar/Mchanga/image_1.jpg",
+            "image2": "images/destinations/Zanzibar/Mchanga/image_2.jpg",
+            "image3": "images/destinations/Zanzibar/Mchanga/image_3.jpg"
         }
     },
     {
-        "name": "F Zeen", 
+        "name": "Milele Villas", 
         "images": {
-            "image1": "images/destinations/Kefalonija/F Zeen/image_1.jpg",
-            "image2": "images/destinations/Kefalonija/F Zeen/image_2.jpg",
-            "image3": "images/destinations/Kefalonija/F Zeen/image_3.jpg",
-            "image4": "images/destinations/Kefalonija/F Zeen/image_4.jpg",
-            "image5": "images/destinations/Kefalonija/F Zeen/image_5.jpg",
-            "image6": "images/destinations/Kefalonija/F Zeen/image_6.jpg",
-            "image7": "images/destinations/Kefalonija/F Zeen/image_7.jpg",
-            "image8": "images/destinations/Kefalonija/F Zeen/image_8.jpg",
-            "image9": "images/destinations/Kefalonija/F Zeen/image_9.jpg",
-            "image10": "images/destinations/Kefalonija/F Zeen/image_10.jpg"
+            "image1": "images/destinations/Zanzibar/Milele Villas/image_1.jpg",
+            "image2": "images/destinations/Zanzibar/Milele Villas/image_2.jpg",
+            "image3": "images/destinations/Zanzibar/Milele Villas/image_3.jpg"
         }
     },
     {
-        "name": "Ionian Emerald Resort", 
+        "name": "Paradise Beach Resort", 
         "images": {
-            "image1": "images/destinations/Kefalonija/Ionian Emerald Resort/image_1.jpg",
-            "image2": "images/destinations/Kefalonija/Ionian Emerald Resort/image_2.jpg",
-            "image3": "images/destinations/Kefalonija/Ionian Emerald Resort/image_3.jpg",
-            "image4": "images/destinations/Kefalonija/Ionian Emerald Resort/image_4.jpg",
-            "image5": "images/destinations/Kefalonija/Ionian Emerald Resort/image_5.jpg",
-            "image6": "images/destinations/Kefalonija/Ionian Emerald Resort/image_6.jpg",
-            "image7": "images/destinations/Kefalonija/Ionian Emerald Resort/image_7.jpg",
-            "image8": "images/destinations/Kefalonija/Ionian Emerald Resort/image_8.jpg",
-            "image9": "images/destinations/Kefalonija/Ionian Emerald Resort/image_9.jpg",
-            "image10": "images/destinations/Kefalonija/Ionian Emerald Resort/image_10.jpg"
+            "image1": "images/destinations/Zanzibar/Paradise Beach Resort/image_1.jpg",
+            "image2": "images/destinations/Zanzibar/Paradise Beach Resort/image_2.jpg",
+            "image3": "images/destinations/Zanzibar/Paradise Beach Resort/image_3.jpg"
         }
     },
     {
-        "name": "Kastro Maistro", 
+        "name": "Pongwe Beach Hotel", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Zanzibar/Pongwe Beach Hotel/image_1.jpg",
+            "image2": "images/destinations/Zanzibar/Pongwe Beach Hotel/image_2.jpg",
+            "image3": "images/destinations/Zanzibar/Pongwe Beach Hotel/image_3.jpg"
         }
     },
     {
-        "name": "Katoi", 
+        "name": "Reef & Beach Resort Jambiani", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Zanzibar/Reef & Beach Resort Jambiani/image_1.jpg",
+            "image2": "images/destinations/Zanzibar/Reef & Beach Resort Jambiani/image_2.jpg",
+            "image3": "images/destinations/Zanzibar/Reef & Beach Resort Jambiani/image_3.jpg"
         }
     },
     {
-        "name": "Niriides", 
+        "name": "Sahari Zanzibar", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Zanzibar/Sahari Zanzibar/image_1.jpg",
+            "image2": "images/destinations/Zanzibar/Sahari Zanzibar/image_2.jpg",
+            "image3": "images/destinations/Zanzibar/Sahari Zanzibar/image_3.jpg"
         }
     },
     {
-        "name": "Pirofani", 
+        "name": "SeVi Boutique Hotel", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Zanzibar/SeVi Boutique Hotel/image_1.jpg",
+            "image2": "images/destinations/Zanzibar/SeVi Boutique Hotel/image_2.jpg",
+            "image3": "images/destinations/Zanzibar/SeVi Boutique Hotel/image_3.jpg"
         }
     },
     {
-        "name": "Samiramis", 
+        "name": "Spice Island Hotel & Resort", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Zanzibar/Spice Island Hotel & Resort/image_1.jpg",
+            "image2": "images/destinations/Zanzibar/Spice Island Hotel & Resort/image_2.jpg",
+            "image3": "images/destinations/Zanzibar/Spice Island Hotel & Resort/image_3.jpg"
         }
     },
     {
-        "name": "Vila Konstantin", 
+        "name": "Waikiki Resort Zanzibar", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Zanzibar/Waikiki Resort Zanzibar/image_1.jpg",
+            "image2": "images/destinations/Zanzibar/Waikiki Resort Zanzibar/image_2.jpg",
+            "image3": "images/destinations/Zanzibar/Waikiki Resort Zanzibar/image_3.jpg"
         }
     },
     {
-        "name": "Vila Metropol", 
+        "name": "Zanzibar Bay Resort", 
         "images": {
-            "image1": "image_1.jpg",
-            "image2": "image_2.jpg",
-            "image3": "image_3.jpg",
-            "image4": "image_4.jpg",
-            "image5": "image_5.jpg",
-            "image6": "image_6.jpg",
-            "image7": "image_7.jpg",
-            "image8": "image_8.jpg",
-            "image9": "image_9.jpg",
-            "image10": "image_10.jpg"
+            "image1": "images/destinations/Zanzibar/Zanzibar Bay Resort/image_1.jpg",
+            "image2": "images/destinations/Zanzibar/Zanzibar Bay Resort/image_2.jpg",
+            "image3": "images/destinations/Zanzibar/Zanzibar Bay Resort/image_3.jpg"
         }
     }
 ]
