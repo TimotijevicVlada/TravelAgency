@@ -12,7 +12,7 @@
   font-family: "Questrial";
 }
 
-/*Variables*/
+/*Variables and functions*/
 /*Navbar*/
 nav {
   width: 100%;
@@ -55,10 +55,11 @@ nav .nav_list .fa-angle-down {
 }
 
 nav .nav_list .fa-angle-down .more_inner {
+  display: none;
   position: absolute;
-  top: 40px;
+  top: 30px;
   left: -50px;
-  background-color: gray;
+  background-color: rgba(0, 0, 0, 0.4);
   width: 150px;
 }
 
@@ -172,7 +173,7 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
 /*Contact form*/
 .contact_wrapper {
   position: fixed;
-  z-index: 3;
+  z-index: 5;
   width: 100%;
   height: 100vh;
   display: -webkit-box;
@@ -195,7 +196,7 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   position: relative;
   width: 400px;
   height: 420px;
-  background-color: #e8e8ff;
+  background-color: #dfdfff;
 }
 
 .contact_wrapper .contact_form .fa-times {
@@ -239,6 +240,7 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 5px 0px;
 }
 
 .contact_wrapper .contact_form .inputs div input {
@@ -286,42 +288,47 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   color: white;
 }
 
-/*Search filter*/
-.search_wrapper {
+/*Favourite*/
+.favorite_wrapper {
+  position: fixed;
+  top: 52px;
+  right: 0;
+  min-height: 500px;
+  width: 500px;
+  background-color: white;
+  z-index: 3;
+  margin-right: -40%;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.favorite_wrapper .exit_space {
+  width: 100%;
+  height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.search_wrapper .input_wrapper {
-  width: 50%;
-  padding: 10px;
-  position: relative;
-}
-
-.search_wrapper .input_wrapper input {
-  width: 100%;
-  padding: 15px;
-  font-size: 25px;
-  border: 2px solid lightgray;
-}
-
-.search_wrapper .input_wrapper input:focus {
-  outline: none;
-}
-
-.search_wrapper .input_wrapper .fa-search {
-  position: absolute;
-  right: 30px;
-  top: 27px;
-  font-size: 25px;
-  color: gray;
+.favorite_wrapper .exit_space i {
+  margin-right: 20px;
+  font-size: 20px;
 }
 
 /*Categories card*/
+main h2 {
+  text-align: center;
+  font-weight: 200;
+  margin: 40px 0px 20px 0px;
+  letter-spacing: 5px;
+}
+
 main .categories_wrapper {
   width: 100%;
   display: -webkit-box;
@@ -555,6 +562,14 @@ main .categories_wrapper .categories_card .btn button i {
   }
   nav .nav_list li:hover {
     color: lightseagreen;
+  }
+  nav .nav_list .fa-angle-down .more_inner {
+    top: 0px;
+    left: 15px;
+    width: 130px;
+  }
+  nav .nav_list .fa-angle-down .more_inner div {
+    font-size: 16px;
   }
   nav .navbar_icons {
     margin-right: 10px;

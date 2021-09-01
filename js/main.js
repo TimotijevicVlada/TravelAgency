@@ -1,6 +1,7 @@
 //Navbar fetch
 async function navBar() {
-    const response = await fetch("json/nav.json");
+    try {
+        const response = await fetch("json/nav.json");
     const data = await response.json();
 
     let container = document.querySelector("nav");
@@ -19,7 +20,7 @@ async function navBar() {
         
         <div class="navbar_icons">
             <i class="far fa-envelope" title="Message us"></i>
-            <i class="far fa-heart" title="Favourite"><span>0</span></i>
+            <i class="far fa-heart" title="Favorite"><span>0</span></i>
             <i class="fas fa-sliders-h" title="Filters"></i>
         </div>
         <div class="navbar_bars">
@@ -27,6 +28,12 @@ async function navBar() {
         </div>
     `;
     container.innerHTML = html;
+
+    //Listener for favourite btn
+    let fav = document.querySelector(".fa-heart");
+    fav.onclick = () => {
+        display_favorite();
+    }
 
     //Home function
     let home = document.querySelector(".home");
@@ -50,12 +57,14 @@ async function navBar() {
                 </div>
     `;
     dropdown_list.innerHTML = dropdown_content;
+    //More info in navbar
     let more_info = document.querySelector(".more_inner");
-    console.log(more_info)
-    console.log(dropdown_list)
-    dropdown_list.onclick = () => {
+    let display_dropdown = document.querySelector(".more");
+    display_dropdown.onmouseover = () => {
         more_info.style.display = "block";
-        alert("Usao")
+    }
+    display_dropdown.onmouseout = () => {
+        more_info.style.display = "none";
     }
 
     //Function to see menu list on phone screen
@@ -68,18 +77,22 @@ async function navBar() {
     exitBtn.onclick = () => {
         list.style.left = "-100%";
     }
+    } catch (err) {
+        console.log(err);
+    }
 }
 navBar();
 
 //Fetch Form
 const fetch_form = async () => {
-    const response = await fetch("json/form.json");
+    try {
+        const response = await fetch("json/form.json");
     const data = await response.json();
 
     let wrapper = document.querySelector(".contact_wrapper");
     let html = "";
     html = `
-            <div class="contact_form">
+            <form class="contact_form">
                 <i class="fas fa-times"></i>
                 <div class="header">
                     <h2>Signup</h2>
@@ -88,17 +101,17 @@ const fetch_form = async () => {
     `;
     for(let i in data) {
         html += `
-                <div>
-                    <input type="${data[i].type}" placeholder="${data[i].placeholder}" />
-                </div>
+                    <div>
+                        <input type="${data[i].type}" placeholder="${data[i].placeholder}" />
+                    </div>
             `;
     }
     html += `
-            </div>
+                </div>
                 <div class="btn">
                     <button>Signup</button>
                 </div>
-            </div>
+            </form>
     `;
 
     wrapper.innerHTML = html;
@@ -110,12 +123,39 @@ const fetch_form = async () => {
         wrapper.style.marginLeft = "-100%";
         document.body.style.overflow = "auto"; 
     }
-    
+    } catch (err) {
+        console.log(err);
+    }
+}
+
+//Favourite window
+const display_favorite = () => {
+    let container = document.querySelector(".favorite_wrapper");
+    let html = "";
+    html = `
+        <div class="exit_space">
+            <i class="fas fa-times"></i>
+        </div>
+        <div>
+            <h3>Favorite apartments</h3>
+        </div>
+        <div>
+            Here will be content..
+        </div>
+    `;
+    container.innerHTML = html;
+    container.style.marginRight = "0%";
+
+    let exit = document.querySelector(".fa-times");
+    exit.onclick = () => {
+        container.style.marginRight = "-40%";
+    }
 }
 
 //Fetch Header 
 async function header() {
-    const response = await fetch("json/header.json");
+    try {
+        const response = await fetch("json/header.json");
     const data = await response.json();
     
     let container = document.querySelector("header");
@@ -159,6 +199,10 @@ async function header() {
       prevEl: ".swiper-button-prev",
     },
   });
+    } catch (err) {
+        console.log(err);
+    }
+    
   
 }
 header();
@@ -172,7 +216,8 @@ async function categories() {
     let container = document.querySelector("main");
     let html = "";
     html = `
-            <div class="categories_wrapper">
+            <h2>Choose your destination</h2>
+            <div class="categories_wrapper"> 
     `;
     for(let i in data) {
         html += `
