@@ -50,6 +50,28 @@ nav .nav_list li:hover {
   color: white;
 }
 
+nav .nav_list .fa-angle-down {
+  position: relative;
+}
+
+nav .nav_list .fa-angle-down .more_inner {
+  position: absolute;
+  top: 40px;
+  left: -50px;
+  background-color: gray;
+  width: 150px;
+}
+
+nav .nav_list .fa-angle-down .more_inner div {
+  padding: 10px;
+  border-bottom: 1px solid black;
+  color: white;
+}
+
+nav .nav_list .fa-angle-down .more_inner div:hover {
+  color: black;
+}
+
 nav .navbar_icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -145,6 +167,123 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button {
 
 header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*Contact form*/
+.contact_wrapper {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  /*blur background*/
+  margin-left: -100%;
+}
+
+.contact_wrapper .contact_form {
+  position: relative;
+  width: 400px;
+  height: 420px;
+  background-color: #e8e8ff;
+}
+
+.contact_wrapper .contact_form .fa-times {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.contact_wrapper .contact_form .header {
+  height: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact_wrapper .contact_form .header h2 {
+  font-weight: 200;
+}
+
+.contact_wrapper .contact_form .inputs {
+  height: 76%;
+}
+
+.contact_wrapper .contact_form .inputs div {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact_wrapper .contact_form .inputs div input {
+  width: 90%;
+  height: 90%;
+  font-size: 16px;
+  padding-left: 20px;
+  border: none;
+}
+
+.contact_wrapper .contact_form .inputs div input::-webkit-input-placeholder {
+  font-size: 16px;
+}
+
+.contact_wrapper .contact_form .inputs div input:-ms-input-placeholder {
+  font-size: 16px;
+}
+
+.contact_wrapper .contact_form .inputs div input::-ms-input-placeholder {
+  font-size: 16px;
+}
+
+.contact_wrapper .contact_form .inputs div input::placeholder {
+  font-size: 16px;
+}
+
+.contact_wrapper .contact_form .inputs div input:focus {
+  outline: none;
+}
+
+.contact_wrapper .contact_form .btn {
+  height: 12%;
+}
+
+.contact_wrapper .contact_form .btn button {
+  height: 100%;
+  width: 100%;
+  font-size: 25px;
+  border: none;
+  background-color: lightseagreen;
+  cursor: pointer;
+}
+
+.contact_wrapper .contact_form .btn button:hover {
+  color: white;
 }
 
 /*Search filter*/
@@ -316,6 +455,7 @@ main .categories_wrapper .categories_card .btn button i {
 
 .hotel_wrapper .hotel .info .image img {
   width: 90%;
+  margin-top: 4px;
 }
 
 .hotel_wrapper .hotel .info .information {
