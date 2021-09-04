@@ -27,7 +27,10 @@ async function navBar() {
             <i class="fas fa-bars"></i>
         </div>
     `;
-    container.innerHTML = html;
+    if(container != null) {
+        container.innerHTML = html;
+    }
+    
 
     //Listener for favourite btn
     let fav = document.querySelector(".fa-heart");
@@ -86,8 +89,11 @@ navBar();
 //Fetch Form
 const fetch_form = async () => {
     try {
-        const response = await fetch("json/form.json");
+    const response = await fetch("json/form.json");
     const data = await response.json();
+
+    const res = await fetch("json/login.json");
+    const dataLogin = await res.json();
 
     let wrapper = document.querySelector(".contact_wrapper");
     let html = "";
@@ -107,22 +113,67 @@ const fetch_form = async () => {
             `;
     }
     html += `
+                    <span class="go_to_login">Go to login form</span>
                 </div>
                 <div class="btn">
                     <button>Signup</button>
                 </div>
             </form>
+            
+            <form class="login_form">
+                <i class="fas fa-times"></i>
+                <div class="header_login">
+                    <h2>Login</h2>
+                </div>
+                <div class="inputs_login">
+    `;
+    for(let i in dataLogin) {
+    html += `
+                    <div>
+                        <input type="${dataLogin[i].type}" placeholder="${dataLogin[i].placeholder}" />
+                    </div>
+    `;    
+    }
+    html += `
+                    <span class="go_to_signup">Go to signup form</span>
+                </div>
+                <div class="btn">
+                    <button>Login</button>
+                </div>
+            </form>
     `;
 
-    wrapper.innerHTML = html;
+    if(wrapper != null) {
+        wrapper.innerHTML = html;
+    }
     wrapper.style.marginLeft = "0%";
     document.body.style.overflow = "hidden"; 
 
-    let exit = document.querySelector(".fa-times");
-    exit.onclick = () => {
-        wrapper.style.marginLeft = "-100%";
-        document.body.style.overflow = "auto"; 
+    //Form display-hide buttons
+    let goLoginBtn = document.getElementsByClassName("go_to_login")[0];
+    let goSignupBtn = document.getElementsByClassName("go_to_signup")[0];
+    let signupPage = document.getElementsByClassName("contact_form")[0];
+    let loginPage = document.getElementsByClassName("login_form")[0];
+    console.log(goLoginBtn)
+    
+    goLoginBtn.onclick = () => {
+        signupPage.style.display = "none";
+        loginPage.style.display = "block";
     }
+    goSignupBtn.onclick = () => {
+        signupPage.style.display = "block";
+        loginPage.style.display = "none";
+    }
+
+    //Exit form buttons
+    let exit = document.querySelectorAll(".fa-times");
+    for(let i in exit) {
+        exit[i].addEventListener("click", () => {
+            wrapper.style.marginLeft = "-100%";
+            document.body.style.overflow = "auto"; 
+        })
+    }
+
     } catch (err) {
         console.log(err);
     }
@@ -143,7 +194,10 @@ const display_favorite = () => {
             Here will be content..
         </div>
     `;
-    container.innerHTML = html;
+    if(container != null) {
+        container.innerHTML = html;
+    }
+    
     container.style.marginRight = "0%";
 
     let exit = document.querySelector(".fa-times");
@@ -267,7 +321,9 @@ async function viewOffer(btn) {
         let data = await res.json();
 
         set_categories(data);
+
         display_hotels(); 
+
     } catch (err) {
         console.log(err);
     }
@@ -309,7 +365,10 @@ const display_hotels = () => {
         `;
     }
     
-    container.innerHTML = html;
+    if(container != null) {
+        container.innerHTML = html;
+    }
+    
 
     let details_btn = document.getElementsByClassName("view_details");
     for(let i in details_btn) {

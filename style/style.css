@@ -192,14 +192,14 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   margin-left: -100%;
 }
 
-.contact_wrapper .contact_form {
+.contact_wrapper .contact_form, .contact_wrapper .login_form {
   position: relative;
   width: 400px;
   height: 420px;
   background-color: #dfdfff;
 }
 
-.contact_wrapper .contact_form .fa-times {
+.contact_wrapper .contact_form .fa-times, .contact_wrapper .login_form .fa-times {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -207,7 +207,7 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   cursor: pointer;
 }
 
-.contact_wrapper .contact_form .header {
+.contact_wrapper .contact_form .header, .contact_wrapper .contact_form .header_login, .contact_wrapper .login_form .header, .contact_wrapper .login_form .header_login {
   height: 12%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,15 +220,15 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
           align-items: center;
 }
 
-.contact_wrapper .contact_form .header h2 {
+.contact_wrapper .contact_form .header h2, .contact_wrapper .contact_form .header_login h2, .contact_wrapper .login_form .header h2, .contact_wrapper .login_form .header_login h2 {
   font-weight: 200;
 }
 
-.contact_wrapper .contact_form .inputs {
+.contact_wrapper .contact_form .inputs, .contact_wrapper .contact_form .inputs_login, .contact_wrapper .login_form .inputs, .contact_wrapper .login_form .inputs_login {
   height: 76%;
 }
 
-.contact_wrapper .contact_form .inputs div {
+.contact_wrapper .contact_form .inputs div, .contact_wrapper .contact_form .inputs_login div, .contact_wrapper .login_form .inputs div, .contact_wrapper .login_form .inputs_login div {
   width: 100%;
   height: 50px;
   display: -webkit-box;
@@ -243,7 +243,7 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   margin: 5px 0px;
 }
 
-.contact_wrapper .contact_form .inputs div input {
+.contact_wrapper .contact_form .inputs div input, .contact_wrapper .contact_form .inputs_login div input, .contact_wrapper .login_form .inputs div input, .contact_wrapper .login_form .inputs_login div input {
   width: 90%;
   height: 90%;
   font-size: 16px;
@@ -251,31 +251,42 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   border: none;
 }
 
-.contact_wrapper .contact_form .inputs div input::-webkit-input-placeholder {
+.contact_wrapper .contact_form .inputs div input::-webkit-input-placeholder, .contact_wrapper .contact_form .inputs_login div input::-webkit-input-placeholder, .contact_wrapper .login_form .inputs div input::-webkit-input-placeholder, .contact_wrapper .login_form .inputs_login div input::-webkit-input-placeholder {
   font-size: 16px;
 }
 
-.contact_wrapper .contact_form .inputs div input:-ms-input-placeholder {
+.contact_wrapper .contact_form .inputs div input:-ms-input-placeholder, .contact_wrapper .contact_form .inputs_login div input:-ms-input-placeholder, .contact_wrapper .login_form .inputs div input:-ms-input-placeholder, .contact_wrapper .login_form .inputs_login div input:-ms-input-placeholder {
   font-size: 16px;
 }
 
-.contact_wrapper .contact_form .inputs div input::-ms-input-placeholder {
+.contact_wrapper .contact_form .inputs div input::-ms-input-placeholder, .contact_wrapper .contact_form .inputs_login div input::-ms-input-placeholder, .contact_wrapper .login_form .inputs div input::-ms-input-placeholder, .contact_wrapper .login_form .inputs_login div input::-ms-input-placeholder {
   font-size: 16px;
 }
 
-.contact_wrapper .contact_form .inputs div input::placeholder {
+.contact_wrapper .contact_form .inputs div input::placeholder, .contact_wrapper .contact_form .inputs_login div input::placeholder, .contact_wrapper .login_form .inputs div input::placeholder, .contact_wrapper .login_form .inputs_login div input::placeholder {
   font-size: 16px;
 }
 
-.contact_wrapper .contact_form .inputs div input:focus {
+.contact_wrapper .contact_form .inputs div input:focus, .contact_wrapper .contact_form .inputs_login div input:focus, .contact_wrapper .login_form .inputs div input:focus, .contact_wrapper .login_form .inputs_login div input:focus {
   outline: none;
 }
 
-.contact_wrapper .contact_form .btn {
+.contact_wrapper .contact_form .inputs span, .contact_wrapper .contact_form .inputs_login span, .contact_wrapper .login_form .inputs span, .contact_wrapper .login_form .inputs_login span {
+  margin-left: 40px;
+  color: lightseagreen;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contact_wrapper .contact_form .inputs span:hover, .contact_wrapper .contact_form .inputs_login span:hover, .contact_wrapper .login_form .inputs span:hover, .contact_wrapper .login_form .inputs_login span:hover {
+  color: black;
+}
+
+.contact_wrapper .contact_form .btn, .contact_wrapper .login_form .btn {
   height: 12%;
 }
 
-.contact_wrapper .contact_form .btn button {
+.contact_wrapper .contact_form .btn button, .contact_wrapper .login_form .btn button {
   height: 100%;
   width: 100%;
   font-size: 25px;
@@ -284,8 +295,12 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   cursor: pointer;
 }
 
-.contact_wrapper .contact_form .btn button:hover {
+.contact_wrapper .contact_form .btn button:hover, .contact_wrapper .login_form .btn button:hover {
   color: white;
+}
+
+.contact_wrapper .login_form {
+  display: none;
 }
 
 /*Favourite*/

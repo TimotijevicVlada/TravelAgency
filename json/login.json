@@ -1,0 +1,10 @@
+[
+    {
+        "type": "text",
+        "placeholder": "Email"
+    },
+    {
+        "type": "pass",
+        "placeholder": "Password"
+    }
+]

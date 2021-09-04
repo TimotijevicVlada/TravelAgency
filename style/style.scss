@@ -164,7 +164,7 @@ header {
   background-color: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(8px);  /*blur background*/
   margin-left: -100%;
-  .contact_form {
+  .contact_form, .login_form {
     position: relative;
     width: 400px;
     height: 420px;
@@ -176,14 +176,14 @@ header {
       font-size: $mediumFont;
       cursor: pointer;
     }
-    .header {
+    .header, .header_login {
       height: 12%;
       @include center;
       h2 {
         font-weight: 200;
       }
     }
-    .inputs {
+    .inputs, .inputs_login {
       height: 76%;
       div {
         width: 100%;
@@ -204,6 +204,15 @@ header {
           }
         }
       }
+      span {
+        margin-left: 40px;
+        color: lightseagreen;
+        text-decoration: underline;
+        cursor: pointer;
+        &:hover {
+          color: black;
+        }
+      }
     }
     .btn {
       height: 12%;
@@ -219,6 +228,9 @@ header {
         }
       }
     }
+  }
+  .login_form {
+    display: none;
   }
 }
 
