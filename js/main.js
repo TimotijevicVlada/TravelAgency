@@ -321,8 +321,9 @@ async function viewOffer(btn) {
         let data = await res.json();
 
         set_categories(data);
-
-        display_hotels(); 
+        
+        display_hotels();
+        
 
     } catch (err) {
         console.log(err);
@@ -332,7 +333,6 @@ async function viewOffer(btn) {
 //Function for display category on the category.html
 const display_hotels = () => {
         let hotels = get_categories();
-        console.log(hotels)
         let container = document.querySelector(".hotel_wrapper");
         let html = "";
 
@@ -349,13 +349,13 @@ const display_hotels = () => {
                     <div class="information">
                         <div class="info_upper">
                             <div>
-                                <span class="price">Price:</span><span class="price_num">50€</span>
+                                <span class="price">Price:</span><span><span class="price_num">${hotels[i].price}</span><span class="currency">€</span></span>
                             </div>
                             <div>
-                                <span class="transportation">Transport:</span><span class="transport">Airplane</span>
+                                <span class="transportation">Transport:</span><span class="transport">${hotels[i].transport}</span>
                             </div>
                             <div>
-                                <span class="num_nights">Nights:</span><span class="nights_number">10</span>
+                                <span class="num_nights">Inclusive:</span><span class="nights_number">${hotels[i].inclusive}</span>
                             </div>
                         </div>
                         <button class="view_details">Details</button>

@@ -1,98 +1,158 @@
 [
     {
+        "destination": "Zanzibar",
         "name": "Clove Island Villas & Apartments", 
         "images": {
             "image1": "images/destinations/Zanzibar/Clove Island Villas & Apartments/image_1.jpg",
             "image2": "images/destinations/Zanzibar/Clove Island Villas & Apartments/image_2.jpg",
             "image3": "images/destinations/Zanzibar/Clove Island Villas & Apartments/image_3.jpg"
-        }
+        },
+        "price": 100,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zanzibar",
         "name": "Kizikula", 
         "images": {
             "image1": "images/destinations/Zanzibar/Kizikula/image_1.jpg",
             "image2": "images/destinations/Zanzibar/Kizikula/image_2.jpg",
             "image3": "images/destinations/Zanzibar/Kizikula/image_3.jpg"
-        }
+        },
+        "price": 80,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zanzibar",
         "name": "Mchanga", 
         "images": {
             "image1": "images/destinations/Zanzibar/Mchanga/image_1.jpg",
             "image2": "images/destinations/Zanzibar/Mchanga/image_2.jpg",
             "image3": "images/destinations/Zanzibar/Mchanga/image_3.jpg"
-        }
+        },
+        "price": 77,
+        "transport": "Airplane",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zanzibar",
         "name": "Milele Villas", 
         "images": {
             "image1": "images/destinations/Zanzibar/Milele Villas/image_1.jpg",
             "image2": "images/destinations/Zanzibar/Milele Villas/image_2.jpg",
             "image3": "images/destinations/Zanzibar/Milele Villas/image_3.jpg"
-        }
+        },
+        "price": 95,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zanzibar",
         "name": "Paradise Beach Resort", 
         "images": {
             "image1": "images/destinations/Zanzibar/Paradise Beach Resort/image_1.jpg",
             "image2": "images/destinations/Zanzibar/Paradise Beach Resort/image_2.jpg",
             "image3": "images/destinations/Zanzibar/Paradise Beach Resort/image_3.jpg"
-        }
+        },
+        "price": 82,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zanzibar",
         "name": "Pongwe Beach Hotel", 
         "images": {
             "image1": "images/destinations/Zanzibar/Pongwe Beach Hotel/image_1.jpg",
             "image2": "images/destinations/Zanzibar/Pongwe Beach Hotel/image_2.jpg",
             "image3": "images/destinations/Zanzibar/Pongwe Beach Hotel/image_3.jpg"
-        }
+        },
+        "price": 105,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zanzibar",
         "name": "Reef & Beach Resort Jambiani", 
         "images": {
             "image1": "images/destinations/Zanzibar/Reef & Beach Resort Jambiani/image_1.jpg",
             "image2": "images/destinations/Zanzibar/Reef & Beach Resort Jambiani/image_2.jpg",
             "image3": "images/destinations/Zanzibar/Reef & Beach Resort Jambiani/image_3.jpg"
-        }
+        },
+        "price": 90,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zanzibar",
         "name": "Sahari Zanzibar", 
         "images": {
             "image1": "images/destinations/Zanzibar/Sahari Zanzibar/image_1.jpg",
             "image2": "images/destinations/Zanzibar/Sahari Zanzibar/image_2.jpg",
             "image3": "images/destinations/Zanzibar/Sahari Zanzibar/image_3.jpg"
-        }
+        },
+        "price": 65,
+        "transport": "Airplane",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zanzibar",
         "name": "SeVi Boutique Hotel", 
         "images": {
             "image1": "images/destinations/Zanzibar/SeVi Boutique Hotel/image_1.jpg",
             "image2": "images/destinations/Zanzibar/SeVi Boutique Hotel/image_2.jpg",
             "image3": "images/destinations/Zanzibar/SeVi Boutique Hotel/image_3.jpg"
-        }
+        },
+        "price": 55,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zanzibar",
         "name": "Spice Island Hotel & Resort", 
         "images": {
             "image1": "images/destinations/Zanzibar/Spice Island Hotel & Resort/image_1.jpg",
             "image2": "images/destinations/Zanzibar/Spice Island Hotel & Resort/image_2.jpg",
             "image3": "images/destinations/Zanzibar/Spice Island Hotel & Resort/image_3.jpg"
-        }
+        },
+        "price": 69,
+        "transport": "Airplane",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zanzibar",
         "name": "Waikiki Resort Zanzibar", 
         "images": {
             "image1": "images/destinations/Zanzibar/Waikiki Resort Zanzibar/image_1.jpg",
             "image2": "images/destinations/Zanzibar/Waikiki Resort Zanzibar/image_2.jpg",
             "image3": "images/destinations/Zanzibar/Waikiki Resort Zanzibar/image_3.jpg"
-        }
+        },
+        "price": 67,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zanzibar",
         "name": "Zanzibar Bay Resort", 
         "images": {
             "image1": "images/destinations/Zanzibar/Zanzibar Bay Resort/image_1.jpg",
             "image2": "images/destinations/Zanzibar/Zanzibar Bay Resort/image_2.jpg",
             "image3": "images/destinations/Zanzibar/Zanzibar Bay Resort/image_3.jpg"
-        }
+        },
+        "price": 72,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     }
 ]

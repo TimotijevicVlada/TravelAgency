@@ -516,7 +516,7 @@ main .categories_wrapper .categories_card .btn button i {
           justify-content: space-between;
 }
 
-.hotel_wrapper .hotel .info .information .info_upper div .price_num, .hotel_wrapper .hotel .info .information .info_upper div .transport, .hotel_wrapper .hotel .info .information .info_upper div .nights_number {
+.hotel_wrapper .hotel .info .information .info_upper div .price_num, .hotel_wrapper .hotel .info .information .info_upper div .transport, .hotel_wrapper .hotel .info .information .info_upper div .nights_number, .hotel_wrapper .hotel .info .information .info_upper div .currency {
   color: #0c0cb9;
   font-weight: bold;
 }

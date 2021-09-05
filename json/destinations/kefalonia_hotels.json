@@ -1,42 +1,67 @@
 [
     {
+        "destination": "Kefalonia",
         "name": "Apolonian Asterias Resort and Spa", 
         "images": {
             "image1": "images/destinations/Kefalonia/Apollonion Asterias Resort and Spa/image_1.jpg",
             "image2": "images/destinations/Kefalonia/Apollonion Asterias Resort and Spa/image_2.jpg",
             "image3": "images/destinations/Kefalonia/Apollonion Asterias Resort and Spa/image_3.jpg"
-        }
+        },
+        "price": 70,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Kefalonia",
         "name": "Electra Kefalonia Hotel & Spa", 
         "images": {
             "image1": "images/destinations/Kefalonia/Electra Kefalonia Hotel & Spa/image_1.jpg",
             "image2": "images/destinations/Kefalonia/Electra Kefalonia Hotel & Spa/image_2.jpg",
             "image3": "images/destinations/Kefalonia/Electra Kefalonia Hotel & Spa/image_3.jpg"
-        }
+        },
+        "price": 50,
+        "transport": "Bus",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Kefalonia",
         "name": "Emelisse Nature Resort", 
         "images": {
             "image1": "images/destinations/Kefalonia/Emelisse Nature Resort/image_1.jpg",
             "image2": "images/destinations/Kefalonia/Emelisse Nature Resort/image_2.jpg",
             "image3": "images/destinations/Kefalonia/Emelisse Nature Resort/image_3.jpg"
-        }
+        },
+        "price": 55,
+        "transport": "Bus",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Kefalonia",
         "name": "F Zeen", 
         "images": {
             "image1": "images/destinations/Kefalonia/F Zeen/image_1.jpg",
             "image2": "images/destinations/Kefalonia/F Zeen/image_2.jpg",
             "image3": "images/destinations/Kefalonia/F Zeen/image_3.jpg"
-        }
+        },
+        "price": 59,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Kefalonia",
         "name": "Ionian Emerald Resort", 
         "images": {
             "image1": "images/destinations/Kefalonia/Ionian Emerald Resort/image_1.jpg",
             "image2": "images/destinations/Kefalonia/Ionian Emerald Resort/image_2.jpg",
             "image3": "images/destinations/Kefalonia/Ionian Emerald Resort/image_3.jpg"
-        }
+        },
+        "price": 70,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     }
 ]

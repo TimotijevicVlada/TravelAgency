@@ -1,50 +1,80 @@
 [
     {
+        "destination": "Zakintos",
         "name": "Contessina Suites & Spa", 
         "images": {
             "image1": "images/destinations/Zakintos/Contessina Suites & Spa/image_1.jpg",
             "image2": "images/destinations/Zakintos/Contessina Suites & Spa/image_2.jpg",
             "image3": "images/destinations/Zakintos/Contessina Suites & Spa/image_3.jpg"
-        }
+        },
+        "price": 70,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zakintos",
         "name": "Lesante Blu, a member of The Leading Hotels of the World", 
         "images": {
             "image1": "images/destinations/Zakintos/Lesante Blu, a member of The Leading Hotels of the World/image_1.jpg",
             "image2": "images/destinations/Zakintos/Lesante Blu, a member of The Leading Hotels of the World/image_2.jpg",
             "image3": "images/destinations/Zakintos/Lesante Blu, a member of The Leading Hotels of the World/image_3.jpg"
-        }
+        },
+        "price": 55,
+        "transport": "Bus",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zakintos",
         "name": "New Aqua Hotel", 
         "images": {
             "image1": "images/destinations/Zakintos/New Aqua Hotel/image_1.jpg",
             "image2": "images/destinations/Zakintos/New Aqua Hotel/image_2.jpg",
             "image3": "images/destinations/Zakintos/New Aqua Hotel/image_3.jpg"
-        }
+        },
+        "price": 50,
+        "transport": "Airplane",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zakintos",
         "name": "Olea All Suite Hotel", 
         "images": {
             "image1": "images/destinations/Zakintos/Olea All Suite Hotel/image_1.jpg",
             "image2": "images/destinations/Zakintos/Olea All Suite Hotel/image_2.jpg",
             "image3": "images/destinations/Zakintos/Olea All Suite Hotel/image_3.jpg"
-        }
+        },
+        "price": 49,
+        "transport": "Bus",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zakintos",
         "name": "Tsamis Zante Suites", 
         "images": {
             "image1": "images/destinations/Zakintos/Tsamis Zante Suites/image_1.jpg",
             "image2": "images/destinations/Zakintos/Tsamis Zante Suites/image_2.jpg",
             "image3": "images/destinations/Zakintos/Tsamis Zante Suites/image_3.jpg"
-        }
+        },
+        "price": 64,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Zakintos",
         "name": "Zante Maris Suites", 
         "images": {
             "image1": "images/destinations/Zakintos/Zante Maris Suites/image_1.jpg",
             "image2": "images/destinations/Zakintos/Zante Maris Suites/image_2.jpg",
             "image3": "images/destinations/Zakintos/Zante Maris Suites/image_3.jpg"
-        }
+        },
+        "price": 70,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     }
 ]

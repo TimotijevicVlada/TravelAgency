@@ -1,98 +1,158 @@
 [
     {
+        "destination": "Seychelles",
         "name": "Bay View Villa Seychelles", 
         "images": {
             "image1": "images/destinations/Seyshelles/Bay View Villa Seychelles/image_1.jpg",
             "image2": "images/destinations/Seyshelles/Bay View Villa Seychelles/image_2.jpg",
             "image3": "images/destinations/Seyshelles/Bay View Villa Seychelles/image_3.jpg"
-        }
+        },
+        "price": 90,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Seychelles",
         "name": "Cerf Island Resort", 
         "images": {
             "image1": "images/destinations/Seyshelles/Cerf Island Resort/image_1.jpg",
             "image2": "images/destinations/Seyshelles/Cerf Island Resort/image_2.jpg",
             "image3": "images/destinations/Seyshelles/Cerf Island Resort/image_3.jpg"
-        }
+        },
+        "price": 100,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Seychelles",
         "name": "Chalets Cote Mer", 
         "images": {
             "image1": "images/destinations/Seyshelles/Chalets Cote Mer/image_1.jpg",
             "image2": "images/destinations/Seyshelles/Chalets Cote Mer/image_2.jpg",
             "image3": "images/destinations/Seyshelles/Chalets Cote Mer/image_3.jpg"
-        }
+        },
+        "price": 70,
+        "transport": "Airplane",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Seychelles",
         "name": "Demeure de Cap Macon", 
         "images": {
             "image1": "images/destinations/Seyshelles/Demeure de Cap Macon/image_1.jpg",
             "image2": "images/destinations/Seyshelles/Demeure de Cap Macon/image_2.jpg",
             "image3": "images/destinations/Seyshelles/Demeure de Cap Macon/image_3.jpg"
-        }
+        },
+        "price": 77,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Seychelles",
         "name": "Hilton Seychelles Labriz Resort & Spa", 
         "images": {
             "image1": "images/destinations/Seyshelles/Hilton Seychelles Labriz Resort & Spa/image_1.jpg",
             "image2": "images/destinations/Seyshelles/Hilton Seychelles Labriz Resort & Spa/image_2.jpg",
             "image3": "images/destinations/Seyshelles/Hilton Seychelles Labriz Resort & Spa/image_3.jpg"
-        }
+        },
+        "price": 69,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Seychelles",
         "name": "Hotel Plein Soleil", 
         "images": {
             "image1": "images/destinations/Seyshelles/Hotel Plein Soleil/image_1.jpg",
             "image2": "images/destinations/Seyshelles/Hotel Plein Soleil/image_2.jpg",
             "image3": "images/destinations/Seyshelles/Hotel Plein Soleil/image_3.jpg"
-        }
+        },
+        "price": 87,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Seychelles",
         "name": "La Villa Therese", 
         "images": {
             "image1": "images/destinations/Seyshelles/La Villa Therese/image_1.jpg",
             "image2": "images/destinations/Seyshelles/La Villa Therese/image_2.jpg",
             "image3": "images/destinations/Seyshelles/La Villa Therese/image_3.jpg"
-        }
+        },
+        "price": 66,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Seychelles",
         "name": "Lilot Beach Chalets", 
         "images": {
             "image1": "images/destinations/Seyshelles/Lilot Beach Chalets/image_1.jpg",
             "image2": "images/destinations/Seyshelles/Lilot Beach Chalets/image_2.jpg",
             "image3": "images/destinations/Seyshelles/Lilot Beach Chalets/image_3.jpg"
-        }
+        },
+        "price": 110,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Seychelles",
         "name": "Royale Suites by Arc Royal Luxury Apts", 
         "images": {
             "image1": "images/destinations/Seyshelles/Royale Suites by Arc Royal Luxury Apts/image_1.jpg",
             "image2": "images/destinations/Seyshelles/Royale Suites by Arc Royal Luxury Apts/image_2.jpg",
             "image3": "images/destinations/Seyshelles/Royale Suites by Arc Royal Luxury Apts/image_3.jpg"
-        }
+        },
+        "price": 95,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Seychelles",
         "name": "Sables d'Or Luxury Apartments", 
         "images": {
             "image1": "images/destinations/Seyshelles/Sables d'Or Luxury Apartments/image_1.jpg",
             "image2": "images/destinations/Seyshelles/Sables d'Or Luxury Apartments/image_2.jpg",
             "image3": "images/destinations/Seyshelles/Sables d'Or Luxury Apartments/image_3.jpg"
-        }
+        },
+        "price": 60,
+        "transport": "Airplane",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Seychelles",
         "name": "The Palm Seychelles", 
         "images": {
             "image1": "images/destinations/Seyshelles/The Palm Seychelles/image_1.jpg",
             "image2": "images/destinations/Seyshelles/The Palm Seychelles/image_2.jpg",
             "image3": "images/destinations/Seyshelles/The Palm Seychelles/image_3.jpg"
-        }
+        },
+        "price": 59,
+        "transport": "Airplane",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Seychelles",
         "name": "Villa De Cerf", 
         "images": {
             "image1": "images/destinations/Seyshelles/Villa De Cerf/image_1.jpg",
             "image2": "images/destinations/Seyshelles/Villa De Cerf/image_2.jpg",
             "image3": "images/destinations/Seyshelles/Villa De Cerf/image_3.jpg"
-        }
+        },
+        "price": 83,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     }
 ]

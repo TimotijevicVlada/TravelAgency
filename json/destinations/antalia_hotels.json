@@ -1,98 +1,159 @@
 [
     {
+        "destination": "Antalia",
         "name": "Akra Hotel", 
         "images": {
             "image1": "images/destinations/Antalia/Akra Hotel/image_1.jpg",
             "image2": "images/destinations/Antalia/Akra Hotel/image_2.jpg",
             "image3": "images/destinations/Antalia/Akra Hotel/image_3.jpg"
-        }
+        },
+        "price": 50,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
+        
     },
     {
+        "destination": "Antalia",
         "name": "Alanya Goldcity", 
         "images": {
             "image1": "images/destinations/Antalia/Alanya Goldcity/image_1.jpg",
             "image2": "images/destinations/Antalia/Alanya Goldcity/image_2.jpg",
             "image3": "images/destinations/Antalia/Alanya Goldcity/image_3.jpg"
-        }
+        },
+        "price": 40,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Antalia",
         "name": "Atelya Art Hotel", 
         "images": {
             "image1": "images/destinations/Antalia/Atelya Art Hotel/image_1.jpg",
             "image2": "images/destinations/Antalia/Atelya Art Hotel/image_2.jpg",
             "image3": "images/destinations/Antalia/Atelya Art Hotel/image_3.jpg"
-        }
+        },
+        "price": 45,
+        "transport": "Airplane",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Antalia",
         "name": "Crowne Plaza Antaliya", 
         "images": {
             "image1": "images/destinations/Antalia/Crowne Plaza Antalya/image_1.jpg",
             "image2": "images/destinations/Antalia/Crowne Plaza Antalya/image_2.jpg",
             "image3": "images/destinations/Antalia/Crowne Plaza Antalya/image_3.jpg"
-        }
+        },
+        "price": 35,
+        "transport": "Bus",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Antalia",
         "name": "Doubletree By Hilton Antalya City Centre", 
         "images": {
             "image1": "images/destinations/Antalia/Doubletree By Hilton Antalya City Centre/image_1.jpg",
             "image2": "images/destinations/Antalia/Doubletree By Hilton Antalya City Centre/image_2.jpg",
             "image3": "images/destinations/Antalia/Doubletree By Hilton Antalya City Centre/image_3.jpg"
-        }
+        },
+        "price": 48,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Antalia",
         "name": "Flamingo Residence", 
         "images": {
             "image1": "images/destinations/Antalia/Flamingo Residence/image_1.jpg",
             "image2": "images/destinations/Antalia/Flamingo Residence/image_2.jpg",
             "image3": "images/destinations/Antalia/Flamingo Residence/image_3.jpg"
-        }
+        },
+        "price": 39,
+        "transport": "Bus",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Antalia",
         "name": "Holiday Inn Antalya", 
         "images": {
             "image1": "images/destinations/Antalia/Holiday Inn Antalya/image_1.jpg",
             "image2": "images/destinations/Antalia/Holiday Inn Antalya/image_2.jpg",
             "image3": "images/destinations/Antalia/Holiday Inn Antalya/image_3.jpg"
-        }
+        },
+        "price": 60,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Antalia",
         "name": "Laren Family Hotel & Spa", 
         "images": {
             "image1": "images/destinations/Antalia/Laren Family Hotel & Spa/image_1.jpg",
             "image2": "images/destinations/Antalia/Laren Family Hotel & Spa/image_2.jpg",
             "image3": "images/destinations/Antalia/Laren Family Hotel & Spa/image_3.jpg"
-        }
+        },
+        "price": 29,
+        "transport": "Bus",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Antalia",
         "name": "Laren Sea Side Hotel Spa", 
         "images": {
             "image1": "images/destinations/Antalia/Laren Sea Side Hotel Spa/image_1.jpg",
             "image2": "images/destinations/Antalia/Laren Sea Side Hotel Spa/image_2.jpg",
             "image3": "images/destinations/Antalia/Laren Sea Side Hotel Spa/image_3.jpg"
-        }
+        },
+        "price": 57,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Antalia",
         "name": "Tourist Hotel", 
         "images": {
             "image1": "images/destinations/Antalia/Tourist Hotel/image_1.jpg",
             "image2": "images/destinations/Antalia/Tourist Hotel/image_2.jpg",
             "image3": "images/destinations/Antalia/Tourist Hotel/image_3.jpg"
-        }
+        },
+        "price": 40,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Antalia",
         "name": "Wellness Apartment Antalya", 
         "images": {
             "image1": "images/destinations/Antalia/Wellness Apartment Antalya/image_1.jpg",
             "image2": "images/destinations/Antalia/Wellness Apartment Antalya/image_2.jpg",
             "image3": "images/destinations/Antalia/Wellness Apartment Antalya/image_3.jpg"
-        }
+        },
+        "price": 39,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Antalia",
         "name": "Zeynel Hotel", 
         "images": {
             "image1": "images/destinations/Antalia/Zeynel Hotel/image_1.jpg",
             "image2": "images/destinations/Antalia/Zeynel Hotel/image_2.jpg",
             "image3": "images/destinations/Antalia/Zeynel Hotel/image_3.jpg"
-        }
+        },
+        "price": 44,
+        "transport": "Bus",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     }
 ]

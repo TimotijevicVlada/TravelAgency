@@ -1,98 +1,158 @@
 [
     {
+        "destination": "Maldives",
         "name": "Holiday Inn Resort Kandooma Maldives", 
         "images": {
             "image1": "images/destinations/Maldives/Holiday Inn Resort Kandooma Maldives/image_1.jpg",
             "image2": "images/destinations/Maldives/Holiday Inn Resort Kandooma Maldives/image_2.jpg",
             "image3": "images/destinations/Maldives/Holiday Inn Resort Kandooma Maldives/image_3.jpg"
-        }
+        },
+        "price": 90,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Maldives",
         "name": "Hondaafushi Island Resort", 
         "images": {
             "image1": "images/destinations/Maldives/Hondaafushi Island Resort/image_1.jpg",
             "image2": "images/destinations/Maldives/Hondaafushi Island Resort/image_2.jpg",
             "image3": "images/destinations/Maldives/Hondaafushi Island Resort/image_3.jpg"
-        }
+        },
+        "price": 80,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Maldives",
         "name": "InterContinental Maldives Maamunagau Resort, an IHG Hotel", 
         "images": {
             "image1": "images/destinations/Maldives/InterContinental Maldives Maamunagau Resort, an IHG Hotel/image_1.jpg",
             "image2": "images/destinations/Maldives/InterContinental Maldives Maamunagau Resort, an IHG Hotel/image_2.jpg",
             "image3": "images/destinations/Maldives/InterContinental Maldives Maamunagau Resort, an IHG Hotel/image_3.jpg"
-        }
+        },
+        "price": 75,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Maldives",
         "name": "Iti Maafushivaru Maldives", 
         "images": {
             "image1": "images/destinations/Maldives/Iti Maafushivaru Maldives/image_1.jpg",
             "image2": "images/destinations/Maldives/Iti Maafushivaru Maldives/image_2.jpg",
             "image3": "images/destinations/Maldives/Iti Maafushivaru Maldives/image_3.jpg"
-        }
+        },
+        "price": 92,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Maldives",
         "name": "Kuredu Island Resort & Spa", 
         "images": {
             "image1": "images/destinations/Maldives/Kuredu Island Resort & Spa/image_1.jpg",
             "image2": "images/destinations/Maldives/Kuredu Island Resort & Spa/image_2.jpg",
             "image3": "images/destinations/Maldives/Kuredu Island Resort & Spa/image_3.jpg"
-        }
+        },
+        "price": 82,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Maldives",
         "name": "Lagoon View Maldives", 
         "images": {
             "image1": "images/destinations/Maldives/Lagoon View Maldives/image_1.jpg",
             "image2": "images/destinations/Maldives/Lagoon View Maldives/image_2.jpg",
             "image3": "images/destinations/Maldives/Lagoon View Maldives/image_3.jpg"
-        }
+        },
+        "price": 79,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Maldives",
         "name": "OZEN LIFE MAADHOO", 
         "images": {
             "image1": "images/destinations/Maldives/OZEN LIFE MAADHOO/image_1.jpg",
             "image2": "images/destinations/Maldives/OZEN LIFE MAADHOO/image_2.jpg",
             "image3": "images/destinations/Maldives/OZEN LIFE MAADHOO/image_3.jpg"
-        }
+        },
+        "price": 67,
+        "transport": "Airplane",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Maldives",
         "name": "Paradise Island Resort & Spa", 
         "images": {
             "image1": "images/destinations/Maldives/Paradise Island Resort & Spa/image_1.jpg",
             "image2": "images/destinations/Maldives/Paradise Island Resort & Spa/image_2.jpg",
             "image3": "images/destinations/Maldives/Paradise Island Resort & Spa/image_3.jpg"
-        }
+        },
+        "price": 59,
+        "transport": "Airplane",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Maldives",
         "name": "Pullman Maldives All-Inclusive Resort", 
         "images": {
             "image1": "images/destinations/Maldives/Pullman Maldives All-Inclusive Resort/image_1.jpg",
             "image2": "images/destinations/Maldives/Pullman Maldives All-Inclusive Resort/image_2.jpg",
             "image3": "images/destinations/Maldives/Pullman Maldives All-Inclusive Resort/image_3.jpg"
-        }
+        },
+        "price": 55,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Maldives",
         "name": "Ukulhas Beach Inn", 
         "images": {
             "image1": "images/destinations/Maldives/Ukulhas Beach Inn/image_1.jpg",
             "image2": "images/destinations/Maldives/Ukulhas Beach Inn/image_2.jpg",
             "image3": "images/destinations/Maldives/Ukulhas Beach Inn/image_3.jpg"
-        }
+        },
+        "price": 49,
+        "transport": "Airplane",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Maldives",
         "name": "Vakkaru Maldives", 
         "images": {
             "image1": "images/destinations/Maldives/Vakkaru Maldives/image_1.jpg",
             "image2": "images/destinations/Maldives/Vakkaru Maldives/image_2.jpg",
             "image3": "images/destinations/Maldives/Vakkaru Maldives/image_3.jpg"
-        }
+        },
+        "price": 60,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Maldives",
         "name": "Velassaru Maldives", 
         "images": {
             "image1": "images/destinations/Maldives/Velassaru Maldives/image_1.jpg",
             "image2": "images/destinations/Maldives/Velassaru Maldives/image_2.jpg",
             "image3": "images/destinations/Maldives/Velassaru Maldives/image_3.jpg"
-        }
+        },
+        "price": 75,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     }
 ]

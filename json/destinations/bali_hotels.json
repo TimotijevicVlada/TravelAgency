@@ -1,98 +1,158 @@
 [
     {
+        "destination": "Bali",
         "name": "Adiwana Warnakali Resort", 
         "images": {
             "image1": "images/destinations/Bali/Adiwana Warnakali Resort/image_1.jpg",
             "image2": "images/destinations/Bali/Adiwana Warnakali Resort/image_2.jpg",
             "image3": "images/destinations/Bali/Adiwana Warnakali Resort/image_3.jpg"
-        }
+        },
+        "price": 60,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Bali",
         "name": "Alam Kawi Ubud Resort & Spa", 
         "images": {
             "image1": "images/destinations/Bali/Alam Kawi Ubud Resort & Spa/image_1.jpg",
             "image2": "images/destinations/Bali/Alam Kawi Ubud Resort & Spa/image_2.jpg",
             "image3": "images/destinations/Bali/Alam Kawi Ubud Resort & Spa/image_3.jpg"
-        }
+        },
+        "price": 65,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Bali",
         "name": "Amnaya Resort Kuta", 
         "images": {
             "image1": "images/destinations/Bali/Amnaya Resort Kuta/image_1.jpg",
             "image2": "images/destinations/Bali/Amnaya Resort Kuta/image_2.jpg",
             "image3": "images/destinations/Bali/Amnaya Resort Kuta/image_3.jpg"
-        }
+        },
+        "price": 63,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Bali",
         "name": "Grandmas Plus Hotel Seminyak", 
         "images": {
             "image1": "images/destinations/Bali/Grandmas Plus Hotel Seminyak/image_1.jpg",
             "image2": "images/destinations/Bali/Grandmas Plus Hotel Seminyak/image_2.jpg",
             "image3": "images/destinations/Bali/Grandmas Plus Hotel Seminyak/image_3.jpg"
-        }
+        },
+        "price": 59,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Bali",
         "name": "Lempuyang Boutique Hotel", 
         "images": {
             "image1": "images/destinations/Bali/Lempuyang Boutique Hotel/image_1.jpg",
             "image2": "images/destinations/Bali/Lempuyang Boutique Hotel/image_2.jpg",
             "image3": "images/destinations/Bali/Lempuyang Boutique Hotel/image_3.jpg"
-        }
+        },
+        "price": 70,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Bali",
         "name": "Mejore Hotel", 
         "images": {
             "image1": "images/destinations/Bali/Mejore Hotel/image_1.jpg",
             "image2": "images/destinations/Bali/Mejore Hotel/image_2.jpg",
             "image3": "images/destinations/Bali/Mejore Hotel/image_3.jpg"
-        }
+        },
+        "price": 68,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Bali",
         "name": "Menjangan Hill", 
         "images": {
             "image1": "images/destinations/Bali/Menjangan Hill/image_1.jpg",
             "image2": "images/destinations/Bali/Menjangan Hill/image_2.jpg",
             "image3": "images/destinations/Bali/Menjangan Hill/image_3.jpg"
-        }
+        },
+        "price": 80,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Bali",
         "name": "Merusaka Nusa Dua", 
         "images": {
             "image1": "images/destinations/Bali/Merusaka Nusa Dua/image_1.jpg",
             "image2": "images/destinations/Bali/Merusaka Nusa Dua/image_2.jpg",
             "image3": "images/destinations/Bali/Merusaka Nusa Dua/image_3.jpg"
-        }
+        },
+        "price": 63,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Bali",
         "name": "Nirjahara", 
         "images": {
             "image1": "images/destinations/Bali/Nirjhara/image_1.jpg",
             "image2": "images/destinations/Bali/Nirjhara/image_2.jpg",
             "image3": "images/destinations/Bali/Nirjhara/image_3.jpg"
-        }
+        },
+        "price": 60,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Bali",
         "name": "Purana Suite Ubud", 
         "images": {
             "image1": "images/destinations/Bali/Purana Suite Ubud/image_1.jpg",
             "image2": "images/destinations/Bali/Purana Suite Ubud/image_2.jpg",
             "image3": "images/destinations/Bali/Purana Suite Ubud/image_3.jpg"
-        }
+        },
+        "price": 83,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Bali",
         "name": "The Kalayana Ubud Resort", 
         "images": {
             "image1": "images/destinations/Bali/The Kalayana Ubud Resort/image_1.jpg",
             "image2": "images/destinations/Bali/The Kalayana Ubud Resort/image_2.jpg",
             "image3": "images/destinations/Bali/The Kalayana Ubud Resort/image_3.jpg"
-        }
+        },
+        "price": 75,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Bali",
         "name": "The Saren", 
         "images": {
             "image1": "images/destinations/Bali/The Saren/image_1.jpg",
             "image2": "images/destinations/Bali/The Saren/image_2.jpg",
             "image3": "images/destinations/Bali/The Saren/image_3.jpg"
-        }
+        },
+        "price": 72,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     }
 ]

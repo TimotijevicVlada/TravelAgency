@@ -1,98 +1,158 @@
 [
     {
+        "destination": "Budva",
         "name": "Apartments Vidikovac", 
         "images": {
             "image1": "images/destinations/Budva/Apartments Vidikovac/image_1.jpg",
             "image2": "images/destinations/Budva/Apartments Vidikovac/image_2.jpg",
             "image3": "images/destinations/Budva/Apartments Vidikovac/image_3.jpg"
-        }
+        },
+        "price": 50,
+        "transport": "Bus",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Budva",
         "name": "Hotel B-ELITE", 
         "images": {
             "image1": "images/destinations/Budva/Hotel B-ELITE/image_1.jpg",
             "image2": "images/destinations/Budva/Hotel B-ELITE/image_2.jpg",
             "image3": "images/destinations/Budva/Hotel B-ELITE/image_3.jpg"
-        }
+        },
+        "price": 40,
+        "transport": "Bus",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Budva",
         "name": "Hotel Vela", 
         "images": {
             "image1": "images/destinations/Budva/Hotel Vela/image_1.jpg",
             "image2": "images/destinations/Budva/Hotel Vela/image_2.jpg",
             "image3": "images/destinations/Budva/Hotel Vela/image_3.jpg"
-        }
+        },
+        "price": 45,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Budva",
         "name": "Hotel Zeta", 
         "images": {
             "image1": "images/destinations/Budva/Hotel Zeta/image_1.jpg",
             "image2": "images/destinations/Budva/Hotel Zeta/image_2.jpg",
             "image3": "images/destinations/Budva/Hotel Zeta/image_3.jpg"
-        }
+        },
+        "price": 54,
+        "transport": "Train",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Budva",
         "name": "Jolly Apartments", 
         "images": {
             "image1": "images/destinations/Budva/Jolly Apartments/image_1.jpg",
             "image2": "images/destinations/Budva/Jolly Apartments/image_2.jpg",
             "image3": "images/destinations/Budva/Jolly Apartments/image_3.jpg"
-        }
+        },
+        "price": 59,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Budva",
         "name": "Milara Apartments", 
         "images": {
             "image1": "images/destinations/Budva/Milara Apartments/image_1.jpg",
             "image2": "images/destinations/Budva/Milara Apartments/image_2.jpg",
             "image3": "images/destinations/Budva/Milara Apartments/image_3.jpg"
-        }
+        },
+        "price": 42,
+        "transport": "Train",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Budva",
         "name": "Sarap Apartments", 
         "images": {
             "image1": "images/destinations/Budva/Sarap Apartments/image_1.jpg",
             "image2": "images/destinations/Budva/Sarap Apartments/image_2.jpg",
             "image3": "images/destinations/Budva/Sarap Apartments/image_3.jpg"
-        }
+        },
+        "price": 38,
+        "transport": "Train",
+        "inclusive": "half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Budva",
         "name": "Splendid Conference & Spa Resort", 
         "images": {
             "image1": "images/destinations/Budva/Splendid Conference & Spa Resort/image_1.jpg",
             "image2": "images/destinations/Budva/Splendid Conference & Spa Resort/image_2.jpg",
             "image3": "images/destinations/Budva/Splendid Conference & Spa Resort/image_3.jpg"
-        }
+        },
+        "price": 65,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Budva",
         "name": "SunAdria Apartments", 
         "images": {
             "image1": "images/destinations/Budva/SunAdria Apartments/image_1.jpg",
             "image2": "images/destinations/Budva/SunAdria Apartments/image_2.jpg",
             "image3": "images/destinations/Budva/SunAdria Apartments/image_3.jpg"
-        }
+        },
+        "price": 70,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Budva",
         "name": "The Old Town Terrace Apartments", 
         "images": {
             "image1": "images/destinations/Budva/The Old Town Terrace Apartments/image_1.jpg",
             "image2": "images/destinations/Budva/The Old Town Terrace Apartments/image_2.jpg",
             "image3": "images/destinations/Budva/The Old Town Terrace Apartments/image_3.jpg"
-        }
+        },
+        "price": 67,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Budva",
         "name": "Vesna's Dream", 
         "images": {
             "image1": "images/destinations/Budva/Vesna's Dream/image_1.jpg",
             "image2": "images/destinations/Budva/Vesna's Dream/image_2.jpg",
             "image3": "images/destinations/Budva/Vesna's Dream/image_3.jpg"
-        }
+        },
+        "price": 72,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Budva",
         "name": "Victoria Residence Apartments", 
         "images": {
             "image1": "images/destinations/Budva/Victoria Residence Apartments/image_1.jpg",
             "image2": "images/destinations/Budva/Victoria Residence Apartments/image_2.jpg",
             "image3": "images/destinations/Budva/Victoria Residence Apartments/image_3.jpg"
-        }
+        },
+        "price": 66,
+        "transport": "Airplane",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     }
 ]

@@ -1,98 +1,158 @@
 [
     {
+        "destination": "Lefkada",
         "name": "Apartments Avra", 
         "images": {
             "image1": "images/destinations/Lefkada/Apartments Avra/image_1.jpg",
             "image2": "images/destinations/Lefkada/Apartments Avra/image_2.jpg",
             "image3": "images/destinations/Lefkada/Apartments Avra/image_3.jpg"
-        }
+        },
+        "price": 56,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Lefkada",
         "name": "Crystal Waters", 
         "images": {
             "image1": "images/destinations/Lefkada/Crystal Waters/image_1.jpeg",
             "image2": "images/destinations/Lefkada/Crystal Waters/image_2.jpeg",
             "image3": "images/destinations/Lefkada/Crystal Waters/image_3.jpeg"
-        }
+        },
+        "price": 49,
+        "transport": "Bus",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Lefkada",
         "name": "Hotel Lefkas", 
         "images": {
             "image1": "images/destinations/Lefkada/Hotel Lefkas/image_1.jpeg",
             "image2": "images/destinations/Lefkada/Hotel Lefkas/image_2.jpeg",
             "image3": "images/destinations/Lefkada/Hotel Lefkas/image_3.jpeg"
-        }
+        },
+        "price": 60,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Lefkada",
         "name": "Ianos", 
         "images": {
             "image1": "images/destinations/Lefkada/Ianos/image_1.jpeg",
             "image2": "images/destinations/Lefkada/Ianos/image_2.jpeg",
             "image3": "images/destinations/Lefkada/Ianos/image_3.jpeg"
-        }
+        },
+        "price": 80,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Lefkada",
         "name": "Ionion star", 
         "images": {
             "image1": "images/destinations/Lefkada/Ionion star/image_1.jpeg",
             "image2": "images/destinations/Lefkada/Ionion star/image_2.jpeg",
             "image3": "images/destinations/Lefkada/Ionion star/image_3.jpeg"
-        }
+        },
+        "price": 40,
+        "transport": "Bus",
+        "inclusive": "None",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Lefkada",
         "name": "Kastro Maistro", 
         "images": {
             "image1": "images/destinations/Lefkada/Kastro Maistro/image_1.jpg",
             "image2": "images/destinations/Lefkada/Kastro Maistro/image_2.jpg",
             "image3": "images/destinations/Lefkada/Kastro Maistro/image_3.jpg"
-        }
+        },
+        "price": 45,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Lefkada",
         "name": "Katoi", 
         "images": {
             "image1": "images/destinations/Lefkada/Katoi/image_1.jpeg",
             "image2": "images/destinations/Lefkada/Katoi/image_2.jpeg",
             "image3": "images/destinations/Lefkada/Katoi/image_3.jpeg"
-        }
+        },
+        "price": 60,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Lefkada",
         "name": "Niriides", 
         "images": {
             "image1": "images/destinations/Lefkada/Niriides/image_1.jpg",
             "image2": "images/destinations/Lefkada/Niriides/image_2.jpg",
             "image3": "images/destinations/Lefkada/Niriides/image_3.jpg"
-        }
+        },
+        "price": 60,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Lefkada",
         "name": "Pirofani", 
         "images": {
             "image1": "images/destinations/Lefkada/Pirofani/image_1.jpg",
             "image2": "images/destinations/Lefkada/Pirofani/image_2.jpg",
             "image3": "images/destinations/Lefkada/Pirofani/image_3.jpg"
-        }
+        },
+        "price": 46,
+        "transport": "Bus",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Lefkada",
         "name": "Samiramis", 
         "images": {
             "image1": "images/destinations/Lefkada/Samiramis/image_1.jpg",
             "image2": "images/destinations/Lefkada/Samiramis/image_2.jpg",
             "image3": "images/destinations/Lefkada/Samiramis/image_3.jpg"
-        }
+        },
+        "price": 76,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Lefkada",
         "name": "Vila Konstantin", 
         "images": {
             "image1": "images/destinations/Lefkada/Vila Konstantin/image_1.jpg",
             "image2": "images/destinations/Lefkada/Vila Konstantin/image_2.jpg",
             "image3": "images/destinations/Lefkada/Vila Konstantin/image_3.jpg"
-        }
+        },
+        "price": 62,
+        "transport": "Airplane",
+        "inclusive": "Half",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     },
     {
+        "destination": "Lefkada",
         "name": "Vila Metropol", 
         "images": {
             "image1": "images/destinations/Lefkada/Vila Metropol/image_1.jpg",
             "image2": "images/destinations/Lefkada/Vila Metropol/image_2.jpg",
             "image3": "images/destinations/Lefkada/Vila Metropol/image_3.jpg"
-        }
+        },
+        "price": 80,
+        "transport": "Airplane",
+        "inclusive": "All",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus iure praesentium, quibusdam veritatis dolor debitis ipsa corrupti ut nemo quo libero, dignissimos, voluptatibus tenetur tempora inventore. Consequatur iure eius nihil?"
     }
 ]
