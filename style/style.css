@@ -192,14 +192,16 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   margin-left: -100%;
 }
 
-.contact_wrapper .contact_form, .contact_wrapper .login_form {
+.contact_wrapper .contact_form,
+.contact_wrapper .login_form {
   position: relative;
   width: 400px;
   height: 420px;
   background-color: #dfdfff;
 }
 
-.contact_wrapper .contact_form .fa-times, .contact_wrapper .login_form .fa-times {
+.contact_wrapper .contact_form .fa-times,
+.contact_wrapper .login_form .fa-times {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -207,7 +209,10 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   cursor: pointer;
 }
 
-.contact_wrapper .contact_form .header, .contact_wrapper .contact_form .header_login, .contact_wrapper .login_form .header, .contact_wrapper .login_form .header_login {
+.contact_wrapper .contact_form .header,
+.contact_wrapper .contact_form .header_login,
+.contact_wrapper .login_form .header,
+.contact_wrapper .login_form .header_login {
   height: 12%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,15 +225,24 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
           align-items: center;
 }
 
-.contact_wrapper .contact_form .header h2, .contact_wrapper .contact_form .header_login h2, .contact_wrapper .login_form .header h2, .contact_wrapper .login_form .header_login h2 {
+.contact_wrapper .contact_form .header h2,
+.contact_wrapper .contact_form .header_login h2,
+.contact_wrapper .login_form .header h2,
+.contact_wrapper .login_form .header_login h2 {
   font-weight: 200;
 }
 
-.contact_wrapper .contact_form .inputs, .contact_wrapper .contact_form .inputs_login, .contact_wrapper .login_form .inputs, .contact_wrapper .login_form .inputs_login {
+.contact_wrapper .contact_form .inputs,
+.contact_wrapper .contact_form .inputs_login,
+.contact_wrapper .login_form .inputs,
+.contact_wrapper .login_form .inputs_login {
   height: 76%;
 }
 
-.contact_wrapper .contact_form .inputs div, .contact_wrapper .contact_form .inputs_login div, .contact_wrapper .login_form .inputs div, .contact_wrapper .login_form .inputs_login div {
+.contact_wrapper .contact_form .inputs div,
+.contact_wrapper .contact_form .inputs_login div,
+.contact_wrapper .login_form .inputs div,
+.contact_wrapper .login_form .inputs_login div {
   width: 100%;
   height: 50px;
   display: -webkit-box;
@@ -243,7 +257,10 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   margin: 5px 0px;
 }
 
-.contact_wrapper .contact_form .inputs div input, .contact_wrapper .contact_form .inputs_login div input, .contact_wrapper .login_form .inputs div input, .contact_wrapper .login_form .inputs_login div input {
+.contact_wrapper .contact_form .inputs div input,
+.contact_wrapper .contact_form .inputs_login div input,
+.contact_wrapper .login_form .inputs div input,
+.contact_wrapper .login_form .inputs_login div input {
   width: 90%;
   height: 90%;
   font-size: 16px;
@@ -251,42 +268,65 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   border: none;
 }
 
-.contact_wrapper .contact_form .inputs div input::-webkit-input-placeholder, .contact_wrapper .contact_form .inputs_login div input::-webkit-input-placeholder, .contact_wrapper .login_form .inputs div input::-webkit-input-placeholder, .contact_wrapper .login_form .inputs_login div input::-webkit-input-placeholder {
+.contact_wrapper .contact_form .inputs div input::-webkit-input-placeholder,
+.contact_wrapper .contact_form .inputs_login div input::-webkit-input-placeholder,
+.contact_wrapper .login_form .inputs div input::-webkit-input-placeholder,
+.contact_wrapper .login_form .inputs_login div input::-webkit-input-placeholder {
   font-size: 16px;
 }
 
-.contact_wrapper .contact_form .inputs div input:-ms-input-placeholder, .contact_wrapper .contact_form .inputs_login div input:-ms-input-placeholder, .contact_wrapper .login_form .inputs div input:-ms-input-placeholder, .contact_wrapper .login_form .inputs_login div input:-ms-input-placeholder {
+.contact_wrapper .contact_form .inputs div input:-ms-input-placeholder,
+.contact_wrapper .contact_form .inputs_login div input:-ms-input-placeholder,
+.contact_wrapper .login_form .inputs div input:-ms-input-placeholder,
+.contact_wrapper .login_form .inputs_login div input:-ms-input-placeholder {
   font-size: 16px;
 }
 
-.contact_wrapper .contact_form .inputs div input::-ms-input-placeholder, .contact_wrapper .contact_form .inputs_login div input::-ms-input-placeholder, .contact_wrapper .login_form .inputs div input::-ms-input-placeholder, .contact_wrapper .login_form .inputs_login div input::-ms-input-placeholder {
+.contact_wrapper .contact_form .inputs div input::-ms-input-placeholder,
+.contact_wrapper .contact_form .inputs_login div input::-ms-input-placeholder,
+.contact_wrapper .login_form .inputs div input::-ms-input-placeholder,
+.contact_wrapper .login_form .inputs_login div input::-ms-input-placeholder {
   font-size: 16px;
 }
 
-.contact_wrapper .contact_form .inputs div input::placeholder, .contact_wrapper .contact_form .inputs_login div input::placeholder, .contact_wrapper .login_form .inputs div input::placeholder, .contact_wrapper .login_form .inputs_login div input::placeholder {
+.contact_wrapper .contact_form .inputs div input::placeholder,
+.contact_wrapper .contact_form .inputs_login div input::placeholder,
+.contact_wrapper .login_form .inputs div input::placeholder,
+.contact_wrapper .login_form .inputs_login div input::placeholder {
   font-size: 16px;
 }
 
-.contact_wrapper .contact_form .inputs div input:focus, .contact_wrapper .contact_form .inputs_login div input:focus, .contact_wrapper .login_form .inputs div input:focus, .contact_wrapper .login_form .inputs_login div input:focus {
+.contact_wrapper .contact_form .inputs div input:focus,
+.contact_wrapper .contact_form .inputs_login div input:focus,
+.contact_wrapper .login_form .inputs div input:focus,
+.contact_wrapper .login_form .inputs_login div input:focus {
   outline: none;
 }
 
-.contact_wrapper .contact_form .inputs span, .contact_wrapper .contact_form .inputs_login span, .contact_wrapper .login_form .inputs span, .contact_wrapper .login_form .inputs_login span {
+.contact_wrapper .contact_form .inputs span,
+.contact_wrapper .contact_form .inputs_login span,
+.contact_wrapper .login_form .inputs span,
+.contact_wrapper .login_form .inputs_login span {
   margin-left: 40px;
   color: lightseagreen;
   text-decoration: underline;
   cursor: pointer;
 }
 
-.contact_wrapper .contact_form .inputs span:hover, .contact_wrapper .contact_form .inputs_login span:hover, .contact_wrapper .login_form .inputs span:hover, .contact_wrapper .login_form .inputs_login span:hover {
+.contact_wrapper .contact_form .inputs span:hover,
+.contact_wrapper .contact_form .inputs_login span:hover,
+.contact_wrapper .login_form .inputs span:hover,
+.contact_wrapper .login_form .inputs_login span:hover {
   color: black;
 }
 
-.contact_wrapper .contact_form .btn, .contact_wrapper .login_form .btn {
+.contact_wrapper .contact_form .btn,
+.contact_wrapper .login_form .btn {
   height: 12%;
 }
 
-.contact_wrapper .contact_form .btn button, .contact_wrapper .login_form .btn button {
+.contact_wrapper .contact_form .btn button,
+.contact_wrapper .login_form .btn button {
   height: 100%;
   width: 100%;
   font-size: 25px;
@@ -295,7 +335,8 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   cursor: pointer;
 }
 
-.contact_wrapper .contact_form .btn button:hover, .contact_wrapper .login_form .btn button:hover {
+.contact_wrapper .contact_form .btn button:hover,
+.contact_wrapper .login_form .btn button:hover {
   color: white;
 }
 
@@ -307,12 +348,11 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
 .favorite_wrapper {
   position: fixed;
   top: 52px;
-  right: 0;
+  right: -500px;
   min-height: 500px;
   width: 500px;
   background-color: white;
   z-index: 3;
-  margin-right: -40%;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -426,6 +466,17 @@ main .categories_wrapper .categories_card .btn button i {
 
 /*Hotels*/
 .hotel_wrapper {
+  background-color: #e7e7e7;
+}
+
+.hotel_wrapper div h2 {
+  text-align: center;
+  padding: 20px 0px;
+  color: lightseagreen;
+  letter-spacing: 5px;
+}
+
+.hotel_wrapper .hotel_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -433,10 +484,9 @@ main .categories_wrapper .categories_card .btn button i {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #e7e7e7;
 }
 
-.hotel_wrapper .hotel {
+.hotel_wrapper .hotel_container .hotel {
   width: 400px;
   height: 240px;
   margin: 10px 0px;
@@ -444,7 +494,7 @@ main .categories_wrapper .categories_card .btn button i {
   border-radius: 5px;
 }
 
-.hotel_wrapper .hotel .header {
+.hotel_wrapper .hotel_container .hotel .header {
   height: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -457,30 +507,30 @@ main .categories_wrapper .categories_card .btn button i {
           align-items: center;
 }
 
-.hotel_wrapper .hotel .header h3 {
+.hotel_wrapper .hotel_container .hotel .header h3 {
   font-weight: 200;
   text-align: center;
   margin: 0 10px;
 }
 
-.hotel_wrapper .hotel .info {
+.hotel_wrapper .hotel_container .hotel .info {
   height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.hotel_wrapper .hotel .info .image {
+.hotel_wrapper .hotel_container .hotel .info .image {
   width: 50%;
   text-align: center;
 }
 
-.hotel_wrapper .hotel .info .image img {
+.hotel_wrapper .hotel_container .hotel .info .image img {
   width: 90%;
   margin-top: 4px;
 }
 
-.hotel_wrapper .hotel .info .information {
+.hotel_wrapper .hotel_container .hotel .info .information {
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -494,7 +544,7 @@ main .categories_wrapper .categories_card .btn button i {
           justify-content: space-between;
 }
 
-.hotel_wrapper .hotel .info .information .info_upper {
+.hotel_wrapper .hotel_container .hotel .info .information .info_upper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -504,7 +554,7 @@ main .categories_wrapper .categories_card .btn button i {
           flex-direction: column;
 }
 
-.hotel_wrapper .hotel .info .information .info_upper div {
+.hotel_wrapper .hotel_container .hotel .info .information .info_upper div {
   background-color: #e2e2e2;
   margin: 4px;
   padding: 5px;
@@ -516,12 +566,15 @@ main .categories_wrapper .categories_card .btn button i {
           justify-content: space-between;
 }
 
-.hotel_wrapper .hotel .info .information .info_upper div .price_num, .hotel_wrapper .hotel .info .information .info_upper div .transport, .hotel_wrapper .hotel .info .information .info_upper div .nights_number, .hotel_wrapper .hotel .info .information .info_upper div .currency {
+.hotel_wrapper .hotel_container .hotel .info .information .info_upper div .price_num,
+.hotel_wrapper .hotel_container .hotel .info .information .info_upper div .transport,
+.hotel_wrapper .hotel_container .hotel .info .information .info_upper div .nights_number,
+.hotel_wrapper .hotel_container .hotel .info .information .info_upper div .currency {
   color: #0c0cb9;
   font-weight: bold;
 }
 
-.hotel_wrapper .hotel .info .information button {
+.hotel_wrapper .hotel_container .hotel .info .information button {
   padding: 5px;
   font-size: 16px;
   font-weight: bold;
@@ -532,7 +585,7 @@ main .categories_wrapper .categories_card .btn button i {
   border: 1px solid transparent;
 }
 
-.hotel_wrapper .hotel .info .information button:hover {
+.hotel_wrapper .hotel_container .hotel .info .information button:hover {
   background-color: white;
   border: 1px solid #0c0cb9;
   color: #0c0cb9;

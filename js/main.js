@@ -198,11 +198,11 @@ const display_favorite = () => {
         container.innerHTML = html;
     }
     
-    container.style.marginRight = "0%";
+    container.style.right = "0px";
 
     let exit = document.querySelector(".fa-times");
     exit.onclick = () => {
-        container.style.marginRight = "-40%";
+        container.style.right = "-500px";
     }
 }
 
@@ -336,7 +336,13 @@ const display_hotels = () => {
         let container = document.querySelector(".hotel_wrapper");
         let html = "";
 
-    for(let i in hotels) {
+        html = `
+            <div>
+                <h2>${hotels[0].destination}</h2>
+            </div>
+            <div class="hotel_container">
+        `;
+        for(let i in hotels) {
         html += `
             <div class="hotel">
                 <div class="header">
@@ -363,8 +369,9 @@ const display_hotels = () => {
                 </div>
             </div>    
         `;
-    }
-    
+        }
+        html += `</div>`;
+
     if(container != null) {
         container.innerHTML = html;
     }
