@@ -108,7 +108,8 @@ const fetch_form = async () => {
     for(let i in data) {
         html += `
                     <div>
-                        <input type="${data[i].type}" placeholder="${data[i].placeholder}" />
+                        <input class="${data[i].class}" type="${data[i].type}" placeholder="${data[i].placeholder}" />
+                        <span class="${data[i].error}"></span>
                     </div>
             `;
     }
@@ -116,7 +117,7 @@ const fetch_form = async () => {
                     <span class="go_to_login">Go to login form</span>
                 </div>
                 <div class="btn">
-                    <button>Signup</button>
+                    <button class="signup_btn">Signup</button>
                 </div>
             </form>
             
@@ -138,7 +139,7 @@ const fetch_form = async () => {
                     <span class="go_to_signup">Go to signup form</span>
                 </div>
                 <div class="btn">
-                    <button>Login</button>
+                    <button class="login_btn">Login</button>
                 </div>
             </form>
     `;
@@ -154,8 +155,6 @@ const fetch_form = async () => {
     let goSignupBtn = document.getElementsByClassName("go_to_signup")[0];
     let signupPage = document.getElementsByClassName("contact_form")[0];
     let loginPage = document.getElementsByClassName("login_form")[0];
-    console.log(goLoginBtn)
-    
     goLoginBtn.onclick = () => {
         signupPage.style.display = "none";
         loginPage.style.display = "block";
@@ -163,6 +162,28 @@ const fetch_form = async () => {
     goSignupBtn.onclick = () => {
         signupPage.style.display = "block";
         loginPage.style.display = "none";
+    }
+
+    //Listeners for regex 
+    let signupbtn = document.querySelector(".signup_btn");
+    let loginbtn = document.querySelector(".login_btn");
+    let nameInput = document.querySelector(".name_input");
+    let emailInput = document.querySelector(".email_input");
+    let numberInput = document.querySelector(".number_input");
+    let passInput = document.querySelector(".pass_input");
+    let passConfInput = document.querySelector(".confirm_pass_input");
+    let nameErr = document.querySelector(".name_error");
+    let emailErr = document.querySelector(".email_error");
+    let numberErr = document.querySelector(".number_error");
+    let passErr = document.querySelector(".pass_error");
+    let passConfErr = document.querySelector(".pass_confirm_error");
+    
+    signupbtn.onclick = (e) => {
+        e.preventDefault();
+        validateSignup(nameInput, emailInput, numberInput, passInput, passConfInput, nameErr, emailErr, numberErr, passErr, passConfErr);
+    }
+    loginbtn.onclick = () => {
+        validateLogin();
     }
 
     //Exit form buttons
@@ -396,4 +417,37 @@ const get_categories = () => {
 
 const display_details = () => {
     alert("USPELO")
+}
+
+
+//Regex
+function validateSignup(nameInput, emailInput, numberInput, passInput, passConfInput, nameErr, emailErr, numberErr, passErr, passConfErr) {
+    //Validate name
+    if(!nameInput.value.trim()) {
+        nameErr.innerHTML = "Username required!";
+    } else if(!/^[A-Z][a-z]{2,}/.test(nameInput.value.trim())) {
+        nameErr.innerHTML = "Enter a valid name!";
+    }
+
+    //Validate email
+    if(!emailInput.value) {
+        emailErr.innerHTML = "Email required!";
+    }else if (!/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(emailInput.value)) {
+        emailErr.innerHTML = "Email adress is invalid!";
+    }
+
+    //Validate pass
+    if(!passInput.value) {
+        passErr.innerHTML = "Password is required!";
+    }else if (!/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/.test(passInput.value)) {
+        passErr.innerHTML = "Password require uppercase, lowercase and number!";
+    }
+
+    //Validate confirm pass
+    if(!passConfInput.value) {
+        passConfErr.innerHTML = "Password is required!";
+    }else if (!/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/.test(passConfInput.value)) {
+        passConfErr.innerHTML = "Password require uppercase, lowercase and number!";
+    }
+
 }

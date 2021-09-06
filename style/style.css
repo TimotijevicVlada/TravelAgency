@@ -196,7 +196,7 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
 .contact_wrapper .login_form {
   position: relative;
   width: 400px;
-  height: 420px;
+  min-height: 420px;
   background-color: #dfdfff;
 }
 
@@ -254,6 +254,10 @@ header .swiper .swiper-wrapper .swiper-slide .header_info button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 5px 0px;
 }
 

@@ -1,22 +1,32 @@
 [
     {
         "type": "text",
-        "placeholder": "Name"
+        "placeholder": "Name",
+        "class": "name_input",
+        "error": "name_error"
     },
     {
         "type": "text",
-        "placeholder": "Email"
+        "placeholder": "Email",
+        "class": "email_input",
+        "error": "email_error"
     },
     {
         "type": "text",
-        "placeholder": "Number"
+        "placeholder": "Number",
+        "class": "number_input",
+        "error": "number_error"
     },
     {
         "type": "pass",
-        "placeholder": "Password"
+        "placeholder": "Password",
+        "class": "pass_input",
+        "error": "pass_error"
     },
     {
         "type": "pass",
-        "placeholder": "Confirm password"
+        "placeholder": "Confirm password",
+        "class": "confirm_pass_input",
+        "error": "pass_confirm_error"
     }
 ]
