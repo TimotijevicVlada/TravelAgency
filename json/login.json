@@ -1,10 +1,14 @@
 [
     {
         "type": "text",
-        "placeholder": "Email"
+        "placeholder": "Email*",
+        "class": "email_login",
+        "error": "email_login_error"
     },
     {
         "type": "pass",
-        "placeholder": "Password"
+        "placeholder": "Password*",
+        "class": "pass_login",
+        "error": "pass_login_error"
     }
 ]

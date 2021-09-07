@@ -1,4 +1,5 @@
 import {validateSignup} from "./contactForm.js";
+import {validateLogin} from "./contactForm.js";
 
 //Navbar fetch
 async function navBar() {
@@ -136,7 +137,8 @@ const fetch_form = async () => {
     for(let i in dataLogin) {
     html += `
                         <div>
-                            <input type="${dataLogin[i].type}" placeholder="${dataLogin[i].placeholder}" />
+                            <input class="${dataLogin[i].class}" type="${dataLogin[i].type}" placeholder="${dataLogin[i].placeholder}" />
+                            <span class="${dataLogin[i].error}"></span>
                         </div>
     `;    
     }
@@ -188,8 +190,15 @@ const fetch_form = async () => {
         e.preventDefault();
         validateSignup(nameInput, emailInput, numberInput, passInput, passConfInput, nameErr, emailErr, numberErr, passErr, passConfErr);
     }
-    loginbtn.onclick = () => {
-        validateLogin();
+
+    let emailLogin = document.querySelector(".email_login");
+    let passLogin = document.querySelector(".pass_login");
+    let emailLoginErr = document.querySelector(".email_login_error");
+    let passLoginErr = document.querySelector(".pass_login_error");
+
+    loginbtn.onclick = (e) => {
+        e.preventDefault();
+        validateLogin(emailLogin, passLogin, emailLoginErr, passLoginErr);
     }
 
     //Exit form buttons

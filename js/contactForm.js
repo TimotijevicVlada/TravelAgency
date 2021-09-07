@@ -1,5 +1,5 @@
 //Regex
-export function validateSignup(nameInput, emailInput, numberInput, passInput, passConfInput, nameErr, emailErr, numberErr, passErr, passConfErr) {
+export const validateSignup = (nameInput, emailInput, numberInput, passInput, passConfInput, nameErr, emailErr, numberErr, passErr, passConfErr) => {
     //Validate name
     if(nameInput.value.trim() && /^[A-Z][a-z]{2,}/.test(nameInput.value.trim())) {
         nameErr.innerHTML = "";
@@ -47,5 +47,27 @@ export function validateSignup(nameInput, emailInput, numberInput, passInput, pa
         passConfErr.innerHTML = "Password should have 8 caracters!";
     } else if (!/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/.test(passConfInput.value)) {
         passConfErr.innerHTML = "Password require uppercase, lowercase and number!";
+    }
+}
+
+export const validateLogin = (emailLogin, passLogin, emailLoginErr, passLoginErr) =>{
+    //Validate email
+    if(emailLogin.value && /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(emailLogin.value)) {
+        emailLoginErr.innerHTML = "";
+    } else if (!emailLogin.value) {
+        emailLoginErr.innerHTML = "Email required!";
+    } else if (!/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(emailLogin.value)) {
+        emailLoginErr.innerHTML = "Email adress is invalid!";
+    }
+
+    //Validate pass
+    if(passLogin.value && /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/.test(passLogin.value)) {
+        passLoginErr.innerHTML = "";
+    } else if(!passLogin.value) {
+        passLoginErr.innerHTML = "Password required!";
+    } else if(passLogin.value.length < 8) {
+        passLoginErr.innerHTML = "Password should have 8 caracters!";
+    } else if (!/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/.test(passLogin.value)) {
+        passLoginErr.innerHTML = "Password require uppercase, lowercase and number!";
     }
 }
