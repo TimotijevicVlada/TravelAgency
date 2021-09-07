@@ -1,7 +1,9 @@
+import {validateSignup} from "./contactForm.js";
+
 //Navbar fetch
 async function navBar() {
     try {
-        const response = await fetch("json/nav.json");
+    const response = await fetch("json/nav.json");
     const data = await response.json();
 
     let container = document.querySelector("nav");
@@ -103,21 +105,23 @@ const fetch_form = async () => {
                 <div class="header">
                     <h2>Signup</h2>
                 </div>
-                <div class="inputs">
+                <div class="inputs_wrapper">
+                    <div class="inputs">
     `;
     for(let i in data) {
         html += `
-                    <div>
-                        <input class="${data[i].class}" type="${data[i].type}" placeholder="${data[i].placeholder}" />
-                        <span class="${data[i].error}"></span>
-                    </div>
+                        <div>
+                            <input class="${data[i].class}" type="${data[i].type}" placeholder="${data[i].placeholder}" />
+                            <span class="${data[i].error}"></span>
+                        </div>
             `;
     }
     html += `
-                    <span class="go_to_login">Go to login form</span>
-                </div>
-                <div class="btn">
-                    <button class="signup_btn">Signup</button>
+                        <span class="go_to_login">Go to login form</span>
+                    </div>
+                    <div class="btn">
+                        <button class="signup_btn">Signup</button>
+                    </div>
                 </div>
             </form>
             
@@ -126,20 +130,22 @@ const fetch_form = async () => {
                 <div class="header_login">
                     <h2>Login</h2>
                 </div>
-                <div class="inputs_login">
+                <div class="inputs_wrapper">
+                    <div class="inputs_login">
     `;
     for(let i in dataLogin) {
     html += `
-                    <div>
-                        <input type="${dataLogin[i].type}" placeholder="${dataLogin[i].placeholder}" />
-                    </div>
+                        <div>
+                            <input type="${dataLogin[i].type}" placeholder="${dataLogin[i].placeholder}" />
+                        </div>
     `;    
     }
     html += `
-                    <span class="go_to_signup">Go to signup form</span>
-                </div>
-                <div class="btn">
-                    <button class="login_btn">Login</button>
+                        <span class="go_to_signup">Go to signup form</span>
+                    </div>
+                    <div class="btn">
+                        <button class="login_btn">Login</button>
+                    </div>
                 </div>
             </form>
     `;
@@ -417,37 +423,4 @@ const get_categories = () => {
 
 const display_details = () => {
     alert("USPELO")
-}
-
-
-//Regex
-function validateSignup(nameInput, emailInput, numberInput, passInput, passConfInput, nameErr, emailErr, numberErr, passErr, passConfErr) {
-    //Validate name
-    if(!nameInput.value.trim()) {
-        nameErr.innerHTML = "Username required!";
-    } else if(!/^[A-Z][a-z]{2,}/.test(nameInput.value.trim())) {
-        nameErr.innerHTML = "Enter a valid name!";
-    }
-
-    //Validate email
-    if(!emailInput.value) {
-        emailErr.innerHTML = "Email required!";
-    }else if (!/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(emailInput.value)) {
-        emailErr.innerHTML = "Email adress is invalid!";
-    }
-
-    //Validate pass
-    if(!passInput.value) {
-        passErr.innerHTML = "Password is required!";
-    }else if (!/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/.test(passInput.value)) {
-        passErr.innerHTML = "Password require uppercase, lowercase and number!";
-    }
-
-    //Validate confirm pass
-    if(!passConfInput.value) {
-        passConfErr.innerHTML = "Password is required!";
-    }else if (!/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/.test(passConfInput.value)) {
-        passConfErr.innerHTML = "Password require uppercase, lowercase and number!";
-    }
-
 }
