@@ -83,6 +83,7 @@ async function navBar() {
     exitBtn.onclick = () => {
         list.style.left = "-100%";
     }
+    
     } catch (err) {
         console.log(err);
     }
@@ -289,6 +290,7 @@ async function header() {
       prevEl: ".swiper-button-prev",
     },
   });
+  
     } catch (err) {
         console.log(err);
     }
@@ -348,7 +350,7 @@ categories()
 //Function fatching categories destination
 async function viewOffer(btn) {
     try {
-       let button = btn.target;
+        let button = btn.target;
         let parent = button.parentElement.parentElement;
         let name = parent.getElementsByClassName("name")[0].innerHTML;
         let nameLower = name.toLowerCase();
@@ -357,47 +359,47 @@ async function viewOffer(btn) {
         let data = await res.json();
 
         set_categories(data);
+        document.location.href = "category.html";
         
         display_hotels();
-        
 
     } catch (err) {
         console.log(err);
     }
+    
 }
 
 //Function for display category on the category.html
 const display_hotels = () => {
-        let hotels = get_categories();
+        let apartments = get_categories();
         let container = document.querySelector(".hotel_wrapper");
         let html = "";
-
         html = `
             <div>
-                <h2>${hotels[0].destination}</h2>
+                <h2>${apartments[0].destination}</h2>
             </div>
             <div class="hotel_container">
         `;
-        for(let i in hotels) {
+        for(let i in apartments) {
         html += `
             <div class="hotel">
                 <div class="header">
-                    <h3>${hotels[i].name}</h3>
+                    <h3>${apartments[i].name}</h3>
                 </div>
                 <div class="info">
                     <div class="image">
-                        <img src="${hotels[i].images.image1}" alt="${hotels[i].name}"/>
+                        <img src="${apartments[i].images.image1}" alt="${apartments[i].name}"/>
                     </div>
                     <div class="information">
                         <div class="info_upper">
                             <div>
-                                <span class="price">Price:</span><span><span class="price_num">${hotels[i].price}</span><span class="currency">€</span></span>
+                                <span class="price">Price:</span><span><span class="price_num">${apartments[i].price}</span><span class="currency">€</span></span>
                             </div>
                             <div>
-                                <span class="transportation">Transport:</span><span class="transport">${hotels[i].transport}</span>
+                                <span class="transportation">Transport:</span><span class="transport">${apartments[i].transport}</span>
                             </div>
                             <div>
-                                <span class="num_nights">Inclusive:</span><span class="nights_number">${hotels[i].inclusive}</span>
+                                <span class="num_nights">Inclusive:</span><span class="nights_number">${apartments[i].inclusive}</span>
                             </div>
                         </div>
                         <button class="view_details">Details</button>
@@ -410,17 +412,20 @@ const display_hotels = () => {
 
     if(container != null) {
         container.innerHTML = html;
+    
+        }
+        
+    let details_btn = document.getElementsByClassName("view_details");
+    if(details_btn != null) {
+        for(let i in details_btn) {
+        details_btn[i].addEventListener("click", display_details);
+      }
     }
     
-
-    let details_btn = document.getElementsByClassName("view_details");
-    for(let i in details_btn) {
-        details_btn[i].addEventListener("click", display_details);
-    }
 }
 
 //Function that set the JSON-s in local storage
-const set_categories = (object) =>{
+const set_categories = (object) => {
     localStorage.setItem("category", JSON.stringify(object));
 }
 
@@ -428,7 +433,6 @@ const set_categories = (object) =>{
 const get_categories = () => {
     return JSON.parse(localStorage.getItem("category"));
 }
-
 
 const display_details = () => {
     alert("USPELO")
